@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D86FF;
+    height: 10vh;
+    padding: 0em 1em;
+    position: sticky;
+}
+
+.header-logo__line1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-logo__line2 {
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+.header-links-container {
+    display: none;
+    justify-content: space-between;
+}
+
+.header-link {
+    margin: 0 .5rem 0 .5rem;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-hamburger-container{
+    display: block;
+}
+
+.header-hamburger-container:hover{
+    cursor: pointer;
+}
+
+.header-hamburger-middle-line {
+    background-color: white;
+    position: relative;
+    width: 40px;
+    height: 3px;
+    margin: 1em;
+}
+
+.header-hamburger-middle-line::before {
+    position: absolute;
+    bottom: 1em;
+    content: '';
+    background-color: white;
+    width: 40px;
+    height: 3px;
+}
+
+.header-hamburger-middle-line::after {
+    position: absolute;
+    top: 1em;
+    content: '';
+    background-color: white;
+    width: 40px;
+    height: 3px;
+}
+
+@media (min-width: 800px) {
+    .header-links-container{
+        display: flex;
+    }
+    .header-hamburger-container {
+        display: none;
+    }
+}
