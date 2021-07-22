@@ -1,0 +1,51 @@
+.project-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em 36px;
+    min-height: 90vh;
+
+    & .project-logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid #363636;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 1.5rem;
+        z-index: 5;
+
+        & .project-logo-image {
+            width: 100%;
+        }
+    }
+
+    & .project-name{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 1.72rem;
+    }
+
+    & .project-purpose {
+        display: flex;
+        justify-content: left;
+    }
+
+    & .project-paragraph-container {
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: 10rem;
+
+        & .project-specs{
+            margin-bottom: 3rem;
+        }
+    }
+
+    .project-url a,
+    .project-code a {
+        color: #363636;
+    }
+}
