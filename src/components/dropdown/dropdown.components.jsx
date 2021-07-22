@@ -7,7 +7,7 @@ const Dropdown = () => {
     return (
         <div className="dropdown-container">
             <ul className="temp-fix">
-                <a href="*">Projects</a>
+                <a href="#project">Projects</a>
                 <a href="*">Skills</a>
                 <a href="*">Education</a>
                 <a href="*">Contact</a>

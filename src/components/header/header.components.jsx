@@ -30,7 +30,7 @@ class Header extends React.Component {
                     <div className="header-hamburger-middle-line"></div>
                 </div>
                 <ul className="header-links-container">
-                    <li className="header-link">Projects</li>
+                    <a href="#project" className="header-link">Projects</a>
                     <li className="header-link">Skills</li>
                     <li className="header-link">Education</li>
                     <li className="header-link">Contact</li>
