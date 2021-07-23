@@ -1,0 +1,24 @@
+.skills-body-styling{
+    background-color: #1D86FF;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .skills-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2em 36px;
+        min-height: 90vh;
+
+        & .skills-title {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            margin: 5.18rem 0;
+        }
+    }
+}
