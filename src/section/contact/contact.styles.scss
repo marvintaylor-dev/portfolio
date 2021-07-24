@@ -1,0 +1,30 @@
+.contact-container {   
+    background-color: #1D86FF;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 5rem;
+
+    & .contact-title {
+        font-weight: 900;
+        font-size: 30px;
+        margin: 3rem 0rem;
+    }
+
+    & .contact-information-container{
+        line-height: 40px;
+    }
+
+    & .contact-weblinks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & .contact-weblinks a {
+        color: white;
+    }
+}

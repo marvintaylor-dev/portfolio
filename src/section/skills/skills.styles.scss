@@ -6,19 +6,20 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 5rem;
 
     & .skills-container{
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin: 2em 36px;
+        margin: 0px 36px;
         min-height: 100vh;
 
         & .skills-title {
             color: white;
             font-size: 30px;
             font-weight: 900;
-            margin: 5.18rem 0;
+            margin-bottom: 5rem;
         }
     }
 }
