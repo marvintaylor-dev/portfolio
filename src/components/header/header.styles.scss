@@ -5,7 +5,9 @@
     background-color: #1D86FF;
     height: 10vh;
     padding: 0em 1em;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 .header-logo__line1 {

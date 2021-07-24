@@ -1,7 +1,7 @@
 .skill-container {
     display: flex;
     flex-direction: row;
-    z-index: 1;
+    z-index: 0;
     
     & .skill-title-container{
         width: 18.75rem;
@@ -24,23 +24,37 @@
         margin-bottom: 58px;
     }
 
-    & .skill-image {
-        width: auto;
-        height: 267px;
-        opacity: 20%;
-        position: absolute;
-        z-index: 0;
+    & .grid {
+        position: relative;
+
+       & .left-side {
+            transform: translateX(-5rem);
+        }
+        
+       & .right-side {
+            transform: translateX(5rem);
+        }
+
+        & .skill-image{
+            width: auto;
+            height: 200px;
+            opacity: 20%;
+            position: absolute;
+            top: -2rem;
+        }
+
+        .left-image {
+            left: 9rem;
+            transform: rotate(-29deg);
+        }
+
+        .right-image {
+            left: -7rem;
+            transform: rotate(29deg);
+        }
     }
 }
 
-
-.left-side {
-    transform: translateX(-5rem);
-}
-
-.right-side {
-    transform: translateX(5rem);
-}
 
 @media(min-width: 800px){
     .left-side {
