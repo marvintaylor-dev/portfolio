@@ -13,7 +13,7 @@ const Project = ({ id, name, purpose, specs, url, code, image }) => (
                 id === 1 ? <Apprentice /> : <Crwn />
             }
         </div>
-
+            
         <div className="project-name">{name}</div>
         <div className="project-paragraph-container">
             <p className="project-purpose">{purpose}</p>

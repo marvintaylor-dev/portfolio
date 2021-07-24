@@ -1,0 +1,28 @@
+.education-page {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2em 36px;
+    min-height: 90vh;
+
+    & .udemy-logo-container{
+        width: 100%;
+
+        & .udemy-logo {
+            width: 90px;
+            height: auto;
+            margin-bottom: 30px;
+        }
+    }
+    
+
+    & .education-section-title{
+        font-size: 30px;
+        font-weight: 900;
+        color: #363636;
+        margin: 3rem 0rem 4rem 0rem;  
+    }
+}

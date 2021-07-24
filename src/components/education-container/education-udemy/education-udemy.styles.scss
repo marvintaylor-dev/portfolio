@@ -1,0 +1,22 @@
+.udemy-class-container {
+    margin-bottom: 4rem;
+
+   & .udemy-logo {
+        width: 90px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    & .instructor-course-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        line-height: 25px;
+    
+        & .instructor-heading, 
+        & .course-heading {
+            font-weight: 700;
+        }
+    }
+}
+

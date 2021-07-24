@@ -1,0 +1,18 @@
+.college-logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.degree-year-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    line-height: 25px;
+    margin-bottom: 3rem;
+
+    & .degree-heading, 
+    & .year-heading {
+        font-weight: 700;
+    }
+}
