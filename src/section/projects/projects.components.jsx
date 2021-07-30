@@ -20,22 +20,20 @@ class Projects extends React.Component {
     render() {
         const { project_data } = this.state;
         return (
-            <div>
+            <div className="project-components-container">
                 <div className="project-body-styling">
                     <div className="oval oval-one"></div>
-
                     <div
                         className="project-container-title"
                         id="projects">
                         PROJECTS
-                </div>
+                    </div>
                     <div className="oval oval-two"></div>
-                    {
-                        /*  project_data.map(({ id, ...otherProps }) => (
-                             <Project key={id} {...otherProps} />
-                         )) */
-                        <Project key={1} {...project_data[0]} />
-                    }
+                    <div className="project-one-styling">
+                        {
+                            <Project key={1} {...project_data[0]} />
+                        }
+                    </div>
                 </div>
                 {
                     <Project key={2} {...project_data[1]} />

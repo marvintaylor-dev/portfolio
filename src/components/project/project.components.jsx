@@ -10,19 +10,25 @@ const Project = ({ id, name, purpose, specs, url, code, image }) => (
     <div className="project-container">
         <div className="project-logo-container">
             {
-                id === 1 ? <Apprentice /> : <Crwn />
+                id === 1 ?
+                    <Apprentice
+                        className="project-logo" /> :
+                    <Crwn className="project-logo" />
             }
         </div>
-            
-        <div className="project-name">{name}</div>
-        <div className="project-paragraph-container">
-            <p className="project-purpose">{purpose}</p>
-            <p className="project-specs">{specs}</p>
-            <div className="project-url">
-                <a href={url}>Url</a>
+        <div className="project-information-container">
+            <div className="project-name-container">
+                <div className="project-name">{name}</div>
             </div>
-            <div className="project-code">
-                <a href={code}>Code</a>
+            <div className="project-paragraph-container">
+                <p className="project-purpose">{purpose}</p>
+                <p className="project-specs">{specs}</p>
+                <div className="project-url">
+                    <a href={url}>Url</a>
+                </div>
+                <div className="project-code">
+                    <a href={code}>Code</a>
+                </div>
             </div>
         </div>
     </div>

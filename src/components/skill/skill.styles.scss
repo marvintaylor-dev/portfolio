@@ -1,7 +1,4 @@
 .skill-container {
-    display: flex;
-    flex-direction: row;
-    z-index: 0;
     
     & .skill-title-container{
         width: 18.75rem;
@@ -22,10 +19,12 @@
         color: white;
         line-height: 33px;
         margin-bottom: 58px;
+        width: 250px;
     }
 
     & .grid {
         position: relative;
+        margin-bottom: 5rem;
 
        & .left-side {
             transform: translateX(-5rem);
@@ -49,23 +48,94 @@
         }
 
         .right-image {
-            left: -7rem;
+            right: 15rem;
             transform: rotate(29deg);
+        }
+
+        @media screen and (min-width: 1000px){
+            .left-image, 
+            .right-image {
+                left: 0;
+                right: 0;
+                position: relative;
+                transform: rotate(0deg);
+            }
+            .left-image{
+                justify-self: start;
+                margin-left: 3rem;
+            }
+            .right-image {
+                justify-self: end;
+                margin-right: 5rem 
+            }
+            .left-side, 
+            .right-side {
+                transform: translateX(0rem);
+            }
+            .skill-image{
+                width: auto;
+                height: 200px;
+                opacity: 100%;
+            }
+            .right-side {
+                justify-self: end;
+            }    
+        }
+        
+    }
+
+    @media screen and (min-width: 1000px){
+        .grid-left,
+        .grid-right{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .grid-left .skill-information{
+            margin-left: 3rem;
+            margin-bottom: 0rem
+        }
+        .skill-title-container{
+            width: 43rem;
+            height: 5rem;
+        }
+    }
+    @media screen and (min-width: 1400px){
+        .skill-title-container{
+            width: 100%;
+            height: 5rem;
+        }
+        .grid-right{
+            margin-left: 5rem;
         }
     }
 }
 
-
-@media(min-width: 800px){
-    .left-side {
-    transform: translateX(0rem);
+@media screen and (min-width: 1000px){
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        width: 105vw;
+        margin-bottom: 5rem;
     }
 
-    .right-side {
-    transform: translateX(0rem);
-    }
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      .two {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      .four {
+          grid-column: 2;
+          justify-self: end;
+          margin-right: 3rem;
+      }
 }
 
-
-
-
+@media screen and (min-width: 1400px){
+    .skill-container{
+        width: 0vw;
+    }
+}

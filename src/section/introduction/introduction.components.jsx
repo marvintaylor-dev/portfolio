@@ -2,9 +2,14 @@ import React from 'react';
 
 import './introduction.styles.scss';
 
+import Headshot from '../../assets/headshot.png'
+
 export const Introduction = () => {
     return (
         <div className="introduction-container">
+            <div className="headshot-container">
+                <img className="headshot" src={Headshot} alt="Me" />
+            </div>
             <div className="introduction-message">
                 <div className="introduction-heading">
                     <div className="introduction-message__line1">const</div>
@@ -18,7 +23,7 @@ export const Introduction = () => {
                     a difference.
                 </p>
             </div>
-            <div className="introduction-photo"></div>
+            <div className="introduction-bottom-blue"></div>
         </div>
     )
 }

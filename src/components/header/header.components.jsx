@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.styles.scss'
 import Dropdown from '../../components/dropdown/dropdown.components'
-
+import Links from '../../components/links/links.components'
 
 class Header extends React.Component {
     constructor(props) {
@@ -29,12 +29,13 @@ class Header extends React.Component {
                 <div className="header-hamburger-container" onClick={this.handleClick}>
                     <div className="header-hamburger-middle-line"></div>
                 </div>
-                <ul className="header-links-container">
-                    <a href="#project" className="header-link">Projects</a>
-                    <li className="header-link">Skills</li>
-                    <li className="header-link">Education</li>
-                    <li className="header-link">Contact</li>
-                </ul>
+                <Links />
+                {/* <div className="header-links-container">
+                    <a href="#projects" className="header-link">Projects</a>
+                    <a href="#skills" className="header-link">Skills</a>
+                    <a href="#education" className="header-link">Education</a>
+                    <a href="#contact" className="header-link">Contact</a>
+                </div> */}
                 {
                     this.state.isToggleOn ?
                         <Dropdown /> : ''

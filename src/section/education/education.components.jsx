@@ -18,7 +18,9 @@ class Education extends React.Component {
     render() {
         const { educationData } = this.state;
         return (
-            <div className="education-page">
+            <div className="education-page" id="education">
+                <div className="blue-box blue-box-left"></div>
+                <div className="blue-box blue-box-right"></div>
                 <div className="education-section-title">EDUCATION</div>
                 <div className="udemy-logo-container">
                     <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="udemy-logo" className="udemy-logo" />

@@ -6,17 +6,18 @@ import College from './education-college/education-college.components'
 
 
 const EducationContainer = ({ institution, type, ...otherProps }) => (
-    <div>
-        <div>
-            {
-                institution === 'udemy' ? <Udemy {...otherProps} /> : null
-            }
-        </div>
-        <div>
+    <div className="individual-education-components">
+
+        {
+            institution === 'udemy' ? <Udemy {...otherProps} /> : null
+        }
+
+        <div className="college-section">
             {
                 type === 'college' ? <College {...otherProps} /> : null
             }
         </div>
+
     </div>
 )
 

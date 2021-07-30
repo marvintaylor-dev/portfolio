@@ -6,7 +6,9 @@ import Skill from '../skill/skill.component'
 
 const SkillsContainer = ({ ...otherProps }) => (
     <div className="container-of-skills">
-        <Skill {...otherProps} />
+        {
+            <Skill className="right" {...otherProps} />
+        }
     </div>
 )
 

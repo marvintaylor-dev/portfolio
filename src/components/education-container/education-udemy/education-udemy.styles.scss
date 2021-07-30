@@ -12,10 +12,27 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
         line-height: 25px;
+        width: 80vw;
     
         & .instructor-heading, 
         & .course-heading {
             font-weight: 700;
+        }
+    }
+    @media screen and (min-width: 800px){
+        .instructor-course-container{
+            font-size: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6rem;
+            width: 70vw;
+        }
+        .year-heading{
+            font-weight: 700;
+        }
+    }
+    @media screen and (max-width: 799px){
+        .instructor-course-sectionThree{
+            display: none;
         }
     }
 }

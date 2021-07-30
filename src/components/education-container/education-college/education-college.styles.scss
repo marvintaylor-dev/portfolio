@@ -4,6 +4,11 @@
     margin-bottom: 30px;
 }
 
+
+.college-class-container{
+    width: 80vw;
+}
+
 .degree-year-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -14,5 +19,19 @@
     & .degree-heading, 
     & .year-heading {
         font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .college-logo{
+        width: 150px;
+        margin-bottom: 3rem;
+    }
+    .degree-year-container{
+        font-size: 20px;
+    }
+    .college-class-container{
+        margin-top: 3rem;
+        width: 70vw;
     }
 }

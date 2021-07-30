@@ -1,6 +1,5 @@
 .education-page {
     position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,21 +7,51 @@
     margin: 2em 36px;
     min-height: 90vh;
 
+    /* & .blue-box {
+        width: 300px;
+        height: 400px;
+        background-color: blue;
+        position: absolute;
+        top: -2rem;
+
+        & .blue-box-left{
+            
+        }
+    } */
+
     & .udemy-logo-container{
-        width: 100%;
+        width: 80vw;
 
         & .udemy-logo {
             width: 90px;
             height: auto;
             margin-bottom: 30px;
         }
+
+        @media screen and (min-width: 800px){
+            .udemy-logo{
+                width: 150px;
+                margin-bottom: 3rem;
+            }
+        }  
+    }
+
+    @media screen and (min-width: 800px){
+        .udemy-logo-container{
+            width: 70vw;
+            }
     }
     
-
     & .education-section-title{
         font-size: 30px;
         font-weight: 900;
         color: #363636;
         margin: 3rem 0rem 4rem 0rem;  
+    }
+
+    @media screen and (min-width: 1000px){
+        .education-section-title{
+            font-size: 60px;
+        }
     }
 }

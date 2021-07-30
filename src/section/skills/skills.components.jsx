@@ -17,9 +17,9 @@ class Skills extends React.Component {
     render() {
         const { skillsData } = this.state;
         return (
-            <div className="skills-body-styling">
+            <div className="skills-body-styling" id="skills">
+                <div className="skills-title">SKILLS</div>
                 <div className="skills-container">
-                    <div className="skills-title">SKILLS</div>
                     {skillsData
                         .map(({ id, ...otherProps }) => (
                             <SkillsContainer key={id} {...otherProps} />

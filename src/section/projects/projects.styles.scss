@@ -16,23 +16,53 @@
         z-index: 5;
     }
 
-    & .oval{
-        width: 38.75rem;
-        height: 17rem;
-        background-color: white;
-        border-radius: 50%;
+   & .oval {
+        width: 150vw;
+        height: 50vh;
         position: absolute;
-        transform: rotate(-25deg);
+        background-color:white;
+        transform: rotate(-5deg);
     }
 
-    & .oval-one{
-        top: -9.38rem;
-        left: -6.25rem;
+    & .oval-one {
+        top: -19rem;
     }
-    
+
     & .oval-two {
+        bottom: -19rem;
+    }
+
+    /* & .oval-one{
+        top: -9.38rem;
+        left: -8.25rem;
+    } */
+    
+    /* & .oval-two {
         bottom: -9.38rem;
         left: -6.25rem;
+    } */
+
+    & .project-one-styling {
+        color: white;
+
+        & .project-url a, 
+        & .project-code a{
+            color: white;
+        }
+    }
+
+    @media screen and (min-width: 1000px){
+        .project-container-title{
+            padding-top: 5rem;
+            font-size: 60px;
+            color: white;
+            margin-bottom: 5rem;
+        }
+    }
+    @media screen and (min-width: 1200px){
+        .project-container-title{
+            margin-bottom: 0rem;
+        }
     }
 }
 

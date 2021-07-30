@@ -2,16 +2,19 @@ import React from 'react';
 
 import './dropdown.styles.scss';
 
+import Links from '../../components/links/links.components'
+
 
 const Dropdown = () => {
     return (
         <div className="dropdown-container">
-            <ul className="temp-fix">
+            <Links />
+            {/* <div className="header-links-container">
                 <a href="#projects">Projects</a>
-                <a href="*">Skills</a>
-                <a href="*">Education</a>
-                <a href="*">Contact</a>
-            </ul>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div> */}
         </div>
     )
 }
