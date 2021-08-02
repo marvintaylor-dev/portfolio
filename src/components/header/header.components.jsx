@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../scss/components/_header.styles.scss';
+import './header.styles.scss'
 import Dropdown from '../../components/dropdown/dropdown.components';
 import Links from '../../components/links/links.components';
 
@@ -31,8 +31,6 @@ class Header extends React.Component {
                     {isToggleOn ? <Dropdown /> : ''}
                 </div>
                 <Links />
-
-
             </div>
         )
     }
