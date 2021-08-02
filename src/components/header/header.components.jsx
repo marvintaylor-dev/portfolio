@@ -1,15 +1,14 @@
 import React from 'react';
-import './header.styles.scss'
-import Dropdown from '../../components/dropdown/dropdown.components'
-import Links from '../../components/links/links.components'
+import '../../scss/components/_header.styles.scss';
+import Dropdown from '../../components/dropdown/dropdown.components';
+import Links from '../../components/links/links.components';
+
+
 
 class Header extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            isToggleOn: false
-        };
-
+        this.state = { isToggleOn: false };
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -20,6 +19,7 @@ class Header extends React.Component {
     }
 
     render() {
+        const { isToggleOn } = this.state;
         return (
             <div className="header">
                 <div className="header-logo">
@@ -28,18 +28,11 @@ class Header extends React.Component {
                 </div>
                 <div className="header-hamburger-container" onClick={this.handleClick}>
                     <div className="header-hamburger-middle-line"></div>
+                    {isToggleOn ? <Dropdown /> : ''}
                 </div>
                 <Links />
-                {/* <div className="header-links-container">
-                    <a href="#projects" className="header-link">Projects</a>
-                    <a href="#skills" className="header-link">Skills</a>
-                    <a href="#education" className="header-link">Education</a>
-                    <a href="#contact" className="header-link">Contact</a>
-                </div> */}
-                {
-                    this.state.isToggleOn ?
-                        <Dropdown /> : ''
-                }
+
+
             </div>
         )
     }

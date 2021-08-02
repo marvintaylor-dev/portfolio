@@ -5,22 +5,47 @@
     justify-content: center;
     flex-direction: column;
     margin: 2em 36px;
-    min-height: 90vh;
+    min-height: 100vh;
 
-    /* & .blue-box {
+     & .blue-box {
         width: 300px;
         height: 400px;
-        background-color: blue;
+        background-color:#1D86FF;
         position: absolute;
         top: -2rem;
+    }
 
-        & .blue-box-left{
-            
-        }
-    } */
+    .blue-box-left{
+        left: -3rem;
+    }
+
+    .blue-box-right{
+        right: -3rem;
+    }
+
+    .circle-right {
+        width: 150%;
+        height: 100%;
+        right: 0rem;
+        border-radius: 0 50% 0 0;
+        position: absolute;
+        background-color: white;
+        z-index: 0;
+    }
+
+    .circle-left {
+        width: 150%;
+        height: 100%;
+        border-radius: 50% 0 0 0;
+        background-color: white;
+        z-index: 0;
+    }
+
+
 
     & .udemy-logo-container{
         width: 80vw;
+        z-index: 1;
 
         & .udemy-logo {
             width: 90px;
@@ -28,12 +53,31 @@
             margin-bottom: 30px;
         }
 
+
         @media screen and (min-width: 800px){
             .udemy-logo{
                 width: 150px;
                 margin-bottom: 3rem;
             }
         }  
+    }
+
+    @media screen and (max-width: 799px){
+        .blue-box-left{
+            display: none;
+        }
+    
+        .blue-box-right{
+            display: none;
+        }
+    
+        .circle-right {
+            display: none;
+        }
+    
+        .circle-left {
+            display: none;
+        }
     }
 
     @media screen and (min-width: 800px){
@@ -47,6 +91,7 @@
         font-weight: 900;
         color: #363636;
         margin: 3rem 0rem 4rem 0rem;  
+        z-index: 1;
     }
 
     @media screen and (min-width: 1000px){

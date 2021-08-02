@@ -1,8 +1,10 @@
+@use '../abstracts';
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D86FF;
+    background-color: red;
     height: 10vh;
     padding: 0em 1em;
     width: 100%;
@@ -70,3 +72,21 @@
         display: none;
     }
 }
+
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
