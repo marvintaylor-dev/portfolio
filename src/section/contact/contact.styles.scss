@@ -1,17 +1,21 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
 .contact-container {   
-    background-color: #1D86FF;
+    background-color: $primary;
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: $light;
     padding-bottom: 5rem;
 
     & .contact-title {
-        font-weight: 900;
-        font-size: 30px;
+        font-weight: $heavy-weight;
+        font-size: $lg-txt;
         margin: 3rem 0rem;
     }
 
@@ -25,23 +29,34 @@
     }
 
     & .contact-weblinks a {
-        color: white;
+        color: $light;
+    }
+
+    @media screen and (min-width: 800px){
+    .contact-title {
+        font-size: $xl-txt;
+        margin-bottom: 5rem;
+    }
     }
 }
 
 @media screen and (min-width: 800px){
     .contact-information-container{
-        width: 70vw;
+        width: 80vw;
     }
     .email-phone-container{
         display: flex;
         justify-content: space-between;
     }
+    .contact-title {
+        font-size: $xl-txt;
+    }
 }
 
 @media screen and (min-width: 1000px){
     .contact-information-container{
-        width: 50vw;
+        width: 80vw;
+        font-size: $sm-txt;
     }
 }
 

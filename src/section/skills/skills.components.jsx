@@ -2,7 +2,7 @@ import React from 'react'
 
 import SKILLS_DATA from './skills.data'
 import './skills.styles.scss'
-import SkillsContainer from '../../components/skills-container/skills-container.components'
+import Skill from '../../components/skill/skill.component'
 
 class Skills extends React.Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class Skills extends React.Component {
                 <div className="skills-container">
                     {skillsData
                         .map(({ id, ...otherProps }) => (
-                            <SkillsContainer key={id} {...otherProps} />
+                            <Skill key={id} {...otherProps} />
                         ))}
                 </div>
             </div>

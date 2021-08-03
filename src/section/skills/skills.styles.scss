@@ -1,5 +1,9 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
 .skills-body-styling{
-    background-color: #1D86FF;
+    background-color: $primary;
     position: relative;
     display: flex;
     align-items: center;
@@ -13,15 +17,15 @@
     }
 
     & .skills-title {
-        color: white;
-        font-size: 30px;
-        font-weight: 900;
+        color: $light;
+        font-size: $xl-txt;
+        font-weight: $heavy-weight;
         margin-bottom: 5rem;
     }
     
     @media screen and (min-width: 1000px){
         .skills-title{
-            font-size: 60px;
+            font-size: $xl-txt;
             margin-bottom: 10rem;
         }
         .skills-container {

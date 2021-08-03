@@ -1,13 +1,18 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
 .dropdown-container{
     display: block;
     position: absolute;
-    right: 0;
     top: 9.8vh;
+    right: 0;
     z-index: 2;
-    background-color: #1D86FF;
+    background-color: $primary;
     height: 50vh;
     width: 300px;
     border-radius: 0 0 0 25%;
+    
+    
 
     & .header-links-container {
         display: flex;
@@ -17,6 +22,9 @@
         height: 80%;
     }
 }
+
+
+
 
 @media (min-width: 1000px){
     .dropdown-container{

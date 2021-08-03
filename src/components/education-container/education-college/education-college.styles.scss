@@ -1,3 +1,6 @@
+@import '../../../scss/abstracts/colors';
+@import '../../../scss/abstracts/fonts';
+
 .college-logo {
     width: 90px;
     height: auto;
@@ -18,7 +21,7 @@
 
     & .degree-heading, 
     & .year-heading {
-        font-weight: 700;
+        font-weight: $med-weight;
     }
 }
 
@@ -28,7 +31,15 @@
         margin-bottom: 3rem;
     }
     .degree-year-container{
-        font-size: 20px;
+        line-height: 33px;
+    }
+    .degree-heading,
+    .year-heading {
+        font-size: $md-txt;
+    }
+    .degree-name,
+    .year {
+        font-size: $sm-txt;
     }
     .college-class-container{
         margin-top: 3rem;

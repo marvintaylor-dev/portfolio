@@ -1,3 +1,6 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
 .grid {
     position: relative;
     margin-bottom: 7rem;
@@ -23,8 +26,8 @@
         transform: translateX(-5rem);
 
         & .skill-title{
-            font-size: 18px;
-            font-weight: 700;
+            font-size: $sm-txt;
+            font-weight: $med-weight;
         }
 }
 

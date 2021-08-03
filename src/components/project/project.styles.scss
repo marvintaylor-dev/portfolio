@@ -1,3 +1,6 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
 .project-container{
     display: flex;
     align-items: center;
@@ -5,19 +8,10 @@
     margin: 2em 36px;
     min-height: 80vh;
 
-    & .project-logo-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     & .project-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 150px;
         height: 150px;
-        border: 5px solid white;
+        border: 5px solid $light;
         border-radius: 50%;
         background-position: center;
         background-size: cover;
@@ -32,8 +26,8 @@
     }
 
     & .project-name{
-        font-size: 18px;
-        font-weight: 700;
+        font-size: $sm-txt;
+        font-weight: $med-weight;
         margin-bottom: 1.72rem;
     }
 
@@ -43,7 +37,7 @@
     }
 
     & .project-paragraph-container {
-        font-size: 18px;
+        font-size: $sm-txt;
         line-height: 33px;
         margin-bottom: 10rem;
 
@@ -54,7 +48,7 @@
 
     .project-url a,
     .project-code a {
-        color: #363636;
+        color: $dark;
     }
 
     @media (min-width: 1200px){
@@ -72,7 +66,7 @@
             justify-content: start;
         }
         .project-name {
-            font-size: 40px;
+            font-size: $lg-txt;
         }
         .project-one-styling{
             margin-bottom: 5rem;

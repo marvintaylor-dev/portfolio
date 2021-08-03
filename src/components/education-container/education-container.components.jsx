@@ -17,7 +17,6 @@ const EducationContainer = ({ institution, type, ...otherProps }) => (
                 type === 'college' ? <College {...otherProps} /> : null
             }
         </div>
-
     </div>
 )
 

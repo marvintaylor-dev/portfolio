@@ -1,3 +1,6 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
 .introduction-container{
     display: flex;
     align-items: center;
@@ -35,10 +38,10 @@
 
     @media screen and (min-width: 1000px){
         .introduction-bottom-blue{
-            height: 25vh;
+            height: 13rem;
             width: 150vw;
             left: -10vh;
-            background-color: #1D86FF;
+            background-color: $primary;
             position: absolute;
             bottom: -15rem;
             z-index: 1;
@@ -50,6 +53,7 @@
             bottom: -11rem;
         }
     }
+
 
     @media screen and (min-width: 1150px){
         .headshot{
@@ -77,28 +81,28 @@
         margin: 0em 0em 3.5em 0em;
 
         .introduction-message__line1 {
-            font-weight: 400;
+            font-weight: $extra-light;
         }
         
         .introduction-message__name {
-            font-size: 30px;
-            font-weight: 800;
+            font-size: $lg-txt;
+            font-weight: $med-weight;
             margin: .3em 0em;
         }
 
         .introduction-message__name span {
-            font-size: 18px;
-            font-weight: 300;
+            font-size: $sm-txt;
+            font-weight: $extra-light;
         }
         
         .introduction-message__job-title{
-            font-weight: 400;
+            font-weight: $extra-light;
         }
     }
     
     .introduction-message__about-me {
-        font-size: 18px;
-        font-weight: 400;
+        font-size: $sm-txt;
+        font-weight: $light-weight;
         line-height: 2em;
     }
 }

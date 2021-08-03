@@ -1,6 +1,10 @@
+@import '../../../scss/abstracts/colors';
+@import '../../../scss/abstracts/fonts';
+
 .udemy-class-container {
     margin-bottom: 4rem;
     z-index: 1;
+
 
    & .udemy-logo {
         width: 90px;
@@ -17,20 +21,36 @@
     
         & .instructor-heading, 
         & .course-heading {
-            font-weight: 700;
+            font-weight: $med-weight;
+        }
+
+        & .instructor-name, 
+        .course-name, 
+        .year{
+            font-size: $sm-txt;
         }
     }
+   
     @media screen and (min-width: 800px){
         .instructor-course-container{
-            font-size: 20px;
             grid-template-columns: repeat(3, 1fr);
             gap: 6rem;
             width: 70vw;
+            line-height: 33px;
         }
-        .year-heading{
-            font-weight: 700;
+        .instructor-heading,
+        .course-heading,
+        .year-heading {
+            font-size: $md-txt;
+            font-weight: $med-weight;
+        }
+        .instructor-name, 
+        .course-name, 
+        .year{
+            font-size: $sm-txt;
         }
     }
+
     @media screen and (max-width: 799px){
         .instructor-course-sectionThree{
             display: none;

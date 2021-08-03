@@ -1,23 +1,26 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
 .header-links-container {
     display: none;
 
     & a {
         text-decoration: none;
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
+        color: $light;
+        font-size: $md-txt;
+        font-weight: $med-weight;
     }
 }
 
 .header-link {
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
+    color: $light;
+    font-size: $md-txt;
+    font-weight: $med-weight;
     text-decoration: none;
 }
 
 .header-link:hover {
-    color: rgb(228, 228, 228);
+    color: $off-white;
 }
 
 @media (min-width: 1000px) {
