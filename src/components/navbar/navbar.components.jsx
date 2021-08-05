@@ -4,24 +4,24 @@ import Dropdown from '../dropdown/dropdown.components';
 import Links from '../links/links.components';
 
 
-
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            isToggleOn: false,
+            openMenu: false
         };
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick() {
-        this.setState(prevState => ({
-            isToggleOn: !prevState.isToggleOn,
+        this.setState(state => ({
+            openMenu: !state.openMenu
         }))
     }
 
     render() {
-        const { isToggleOn } = this.state;
+        const { openMenu } = this.state;
+
         return (
             <nav className="navbar">
                 <div className="navbar-logo">
@@ -29,13 +29,12 @@ class Navbar extends React.Component {
                     <div className="navbar-logo__line2">Software Developer</div>
                 </div>
 
-
-                <div className={`${isToggleOn ? "showMenu" : ""} navbar-hamburger-container`} onClick={this.handleClick}>
+                <div className={`${openMenu ? "showMenu" : ""} navbar-hamburger-container`} onClick={this.handleClick}>
                     <div className="top-line"></div>
                     <div className="middle-line"></div>
                     <div className="bottom-line"></div>
                 </div>
-                {isToggleOn ? <Dropdown /> : ""}
+                <Dropdown open={openMenu} />
                 <Links />
             </nav>
         )

@@ -22,7 +22,16 @@
 .header-link:hover {
     color: $off-white;
 }
-
+@media (max-width: 999px){
+    .header-links-container a {
+        text-decoration: none;
+        color: $light;
+        font-size: $md-txt;
+        font-weight: $med-weight;
+        transform: translateX(100%);
+        transition: all .7s ease-in;
+    }
+}
 @media (min-width: 1000px) {
     .header-links-container{
         display: flex;
@@ -30,4 +39,8 @@
         justify-content: center;
         gap: 50px;
     }
+}
+
+.slideIn a{
+    transform: translateY(0%);
 }

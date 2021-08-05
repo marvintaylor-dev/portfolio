@@ -5,10 +5,12 @@ import './dropdown.styles.scss';
 import Links from '../../components/links/links.components'
 
 
-const Dropdown = () => {
+
+
+const Dropdown = ({ open }) => {
     return (
-        <div className="dropdown-container">
-            <Links />
+        <div className={`${open ? 'change' : ''} dropdown-container`}>
+            <Links open={open} />
         </div>
     )
 }

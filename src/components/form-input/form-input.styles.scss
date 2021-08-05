@@ -1,0 +1,64 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+@mixin shrinkLabel {
+    top: -10px;
+    font-size: 14px;
+    color: $light;
+  }
+
+@mixin form-input{
+  background: none;
+  background-color: $primary;
+  color: $light;
+  font-size: $md-txt;
+  padding: 20px 10px 20px 20px;
+  display: block;
+  width: 100%;
+  border-radius: .5em;
+  border: 1px solid $light;
+  margin: 1.5rem 0;
+  box-shadow: -19px 10px 38px -3px rgba(3, 8, 63, 0.15);
+}
+
+@mixin form-input-label {
+  background-color: $primary;
+      color: $light;
+      font-size: $sm-txt;
+      padding: 0rem 1rem;
+      font-weight: $light-weight;
+      position: absolute;
+      pointer-events: none;
+      left: 10px;
+      top: 25px;
+      transition: 300ms ease all;
+}
+  
+  .group {
+    position: relative;
+    margin: 45px 0;
+  
+    .form-input {
+      @include form-input();
+  
+      &:focus {
+        outline: none;
+      }
+  
+      &:focus ~ .form-input-label {
+        @include shrinkLabel();
+      }
+    }
+  
+    input[type='password'] {
+      letter-spacing: 0.3em;
+    }
+  
+    .form-input-label {
+      @include form-input-label();
+  
+      &.shrink {
+        @include shrinkLabel();
+      }
+    }
+  }

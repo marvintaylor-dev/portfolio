@@ -6,7 +6,7 @@ import Headshot from '../../assets/headshot.png'
 
 export const Introduction = () => {
     return (
-        <div className="introduction-container">
+        <div className="introduction-container" id="introduction">
             <div className="headshot-container">
                 <img className="headshot" src={Headshot} alt="Me" />
             </div>
