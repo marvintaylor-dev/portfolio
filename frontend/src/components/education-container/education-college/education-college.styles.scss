@@ -1,0 +1,62 @@
+@import '../../../scss/abstracts/colors';
+@import '../../../scss/abstracts/fonts';
+
+.college-logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+.college-class-container{
+    width: 80vw;
+}
+
+.degree-year-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 25px;
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+    & .degree-heading, 
+    & .year-heading {
+        font-weight: $med-weight;
+    }
+}
+
+
+@media screen and (min-width: 800px){
+    .college-logo{
+        width: 150px;
+        margin-bottom: 3rem;
+    }
+    .degree-year-container{
+        line-height: 33px;
+    }
+    .degree-heading,
+    .year-heading {
+        font-size: $md-txt;
+    }
+    .degree-name,
+    .year {
+        font-size: $sm-txt;
+    }
+    .college-class-container{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .college-class-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-basis: auto;
+        margin-top: 5rem;
+
+        & section {
+            width: 60%;
+        }
+    }
+}
