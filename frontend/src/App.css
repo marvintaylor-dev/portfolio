@@ -1,0 +1,9 @@
+body {
+    font-family:  Montserrat;
+    overflow-x: hidden;
+}
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
