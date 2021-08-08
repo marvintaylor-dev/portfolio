@@ -9,7 +9,7 @@
 .skill-image{
     width: auto;
     height: 200px;
-    opacity: 20%;
+    opacity: .4;
     position: absolute;
     right: -5rem;
     transform: rotate(-29deg);
@@ -69,7 +69,7 @@
     .skill-image{
         width: 150px;
         height: auto;
-        opacity: 100%;
+        opacity: 1;
         left: 5rem;
         position: absolute;
         transform: rotate(0deg);
