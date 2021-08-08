@@ -20,7 +20,7 @@
     }
 
     & .contact-form-container{
-        width: 100%;
+        width: 90vw;
         line-height: 20px;
     }
 
@@ -58,12 +58,11 @@
 }
 
 .contact-page-contents {
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-basis: auto;
+
 }
 
 .contact-card {
