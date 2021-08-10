@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e523332e.chunk.css",
-    "main.js": "/portfolio/static/js/main.5cf69df1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5cf69df1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.fabc76f9.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fabc76f9.js.map",
-    "static/js/2.4a68ce57.chunk.js": "/portfolio/static/js/2.4a68ce57.chunk.js",
-    "static/js/2.4a68ce57.chunk.js.map": "/portfolio/static/js/2.4a68ce57.chunk.js.map",
-    "static/js/3.c9628ab9.chunk.js": "/portfolio/static/js/3.c9628ab9.chunk.js",
-    "static/js/3.c9628ab9.chunk.js.map": "/portfolio/static/js/3.c9628ab9.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.e523332e.chunk.css.map": "/portfolio/static/css/main.e523332e.chunk.css.map",
-    "static/js/2.4a68ce57.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4a68ce57.chunk.js.LICENSE.txt",
-    "static/media/apprentice.0f783e0c.svg": "/portfolio/static/media/apprentice.0f783e0c.svg",
-    "static/media/crwn.911b4378.svg": "/portfolio/static/media/crwn.911b4378.svg",
-    "static/media/headshot.aa77360e.png": "/portfolio/static/media/headshot.aa77360e.png"
+    "main.css": "/static/css/main.e523332e.chunk.css",
+    "main.js": "/static/js/main.02956d37.chunk.js",
+    "main.js.map": "/static/js/main.02956d37.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.725067c2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.725067c2.js.map",
+    "static/js/2.4a68ce57.chunk.js": "/static/js/2.4a68ce57.chunk.js",
+    "static/js/2.4a68ce57.chunk.js.map": "/static/js/2.4a68ce57.chunk.js.map",
+    "static/js/3.c9628ab9.chunk.js": "/static/js/3.c9628ab9.chunk.js",
+    "static/js/3.c9628ab9.chunk.js.map": "/static/js/3.c9628ab9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e523332e.chunk.css.map": "/static/css/main.e523332e.chunk.css.map",
+    "static/js/2.4a68ce57.chunk.js.LICENSE.txt": "/static/js/2.4a68ce57.chunk.js.LICENSE.txt",
+    "static/media/apprentice.0f783e0c.svg": "/static/media/apprentice.0f783e0c.svg",
+    "static/media/crwn.911b4378.svg": "/static/media/crwn.911b4378.svg",
+    "static/media/headshot.aa77360e.png": "/static/media/headshot.aa77360e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fabc76f9.js",
+    "static/js/runtime-main.725067c2.js",
     "static/js/2.4a68ce57.chunk.js",
     "static/css/main.e523332e.chunk.css",
-    "static/js/main.5cf69df1.chunk.js"
+    "static/js/main.02956d37.chunk.js"
   ]
 }
