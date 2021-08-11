@@ -8,7 +8,7 @@ const Skill = ({ technology, information, image }) => (
         <div className="skill-title-container one">
             <div className="skill-title">{technology}</div>
         </div>
-        <p className="skill-information three">{information}</p>
+        <p className="skill-information three"><strong>Favorite Part:</strong> {information}</p>
     </div>
 )
 

@@ -51,6 +51,8 @@ class Contact extends React.Component {
         return (
             <div className="contact-container" id="contact">
                 <div className="contact-title">CONTACT ME</div>
+                {/* pipeline pro contact form */}
+                {/*  <iframe src="https://msgsndr.com/widget/form/aQlEYGLE7OUBYhddqtjg" title="contact" style={{ border: 'none', width: '100%', height: '400px' }} scrolling="no" id="aQlEYGLE7OUBYhddqtjg"></iframe> */}
                 <div className="contact-page-contents">
                     <form id="contact-form" onSubmit={this.handleSubmit} method="POST">
 
@@ -88,13 +90,13 @@ class Contact extends React.Component {
                                 required
                             />
                             <button type="submit" className='msg-btn'>
-                                Send Message
+                                Send Email
                             </button>
                         </div>
                     </form>
                     <div className="contact-weblinks">
                         <div className="contact-card">
-                            <h3>Social Media</h3>
+                            <h3>My Social Media</h3>
                             <a href="https://github.com/marvintaylor-dev/">Github Code</a>
                             <a href="https://www.linkedin.com/in/marvin-taylor-dev/">Linked In</a>
                         </div>

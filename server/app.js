@@ -45,7 +45,7 @@ router.post('/send', (req, res, next) => {
     const { name, email, subject, message } = req.body;
 
     let mail = {
-        from: name,
+        from: process.env.USER_EMAIL,
         to: process.env.USER_EMAIL,
         subject: subject,
         text: message,
