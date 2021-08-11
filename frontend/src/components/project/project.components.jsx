@@ -21,13 +21,17 @@ const Project = ({ id, name, purpose, specs, url, code, image }) => (
                 <div className="project-name">{name}</div>
             </div>
             <div className="project-paragraph-container">
-                <p className="project-purpose">{purpose}</p>
-                <p className="project-specs">{specs}</p>
+                <p className="project-purpose">
+                    <div className="bold">Why:</div>
+                    <div>{purpose}</div>
+                </p>
+                <p className="project-specs">
+                    <div className="bold">Specs:</div>
+                    <div>{specs}</div>
+                </p>
                 <div className="project-url">
-                    <a href={url}>Url</a>
-                </div>
-                <div className="project-code">
-                    <a href={code}>Code</a>
+                    <a href={url}>Website</a>
+                    <a href={code}>Github Code</a>
                 </div>
             </div>
         </div>

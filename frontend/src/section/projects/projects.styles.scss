@@ -39,9 +39,9 @@
     & .project-one-styling {
         color: $light;
 
-        & .project-url a, 
-        & .project-code a{
+        & .project-url a {
             color: $light;
+            border-bottom: 1px solid $light;
         }
     }
 

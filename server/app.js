@@ -42,18 +42,15 @@ transporter.verify((error, success) => {
 });
 
 router.post('/send', (req, res, next) => {
-    let name = req.body.name
-    let email = req.body.email
-    let subject = req.body.subject
-    let message = req.body.message
-    let content = `name: ${name} \n email: ${email} \n subject: ${subject} \n message: ${message}`
+    const { name, email, subject, message } = req.body;
 
     let mail = {
-        from: `"${name}" ${email}`,
+        from: name,
         to: process.env.USER_EMAIL,
         subject: subject,
         text: message,
         html: `<div className="email">
+        <h2>From: ${name}, ${email}</h2>
         <h4>${subject}</h4>
         <p>${message}</p>
         </div>`
@@ -68,8 +65,9 @@ router.post('/send', (req, res, next) => {
             res.json({
                 status: 'success'
             })
+
             transporter.sendMail({
-                from: process.env.USER_EMAIL,
+                from: `Marvin Taylor ${process.env.USER_EMAIL}`,
                 to: email,
                 subject: "Thanks for visiting!",
                 html: `<div className="email">

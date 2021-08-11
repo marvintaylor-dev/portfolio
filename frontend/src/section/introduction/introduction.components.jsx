@@ -17,10 +17,12 @@ export const Introduction = () => {
                     <div className="introduction-message__job-title">‘Full-Stack Web Developer’</div>
                 </div>
                 <p className="introduction-message__about-me">
-                    Hello! Welcome to my portfolio.  I’m a full-stack web developer using
-                    Javascript, React, Node, Express with experience in both MySQL
-                    and MongoDB. My passion is In building projects that make
-                    a difference.
+                    Hello! Welcome to my portfolio.  I’m a full-stack web developer with 
+                    experience using Javascript, React, Node, Express, MySQL and MongoDB. 
+                    
+                    As a former teacher and social worker my passion is in building
+                    projects that are driven by innovation, and most importantly, 
+                    improving the lives of others.
                 </p>
             </div>
             <div className="introduction-bottom-blue"></div>
