@@ -3,7 +3,7 @@ import React from 'react'
 import './project.styles.scss'
 
 import { ReactComponent as Apprentice } from '../../assets/apprentice.svg'
-import { ReactComponent as Crwn } from '../../assets/crwn.svg'
+import { ReactComponent as Sorting } from '../../assets/sortingLogo.svg'
 
 
 const Project = ({ id, name, purpose, specs, url, code, image }) => (
@@ -13,7 +13,8 @@ const Project = ({ id, name, purpose, specs, url, code, image }) => (
                 id === 1 ?
                     <Apprentice
                         className="project-logo" /> :
-                    <Crwn className="project-logo" />
+                    <Sorting
+                        className="project-logo" />
             }
         </div>
         <div className="project-information-container">
