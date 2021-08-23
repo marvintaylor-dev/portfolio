@@ -40,6 +40,20 @@ const SKILLS_DATA = [
         technology: 'Node + Express',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png',
         information: 'The robust NPM system can come in pretty handy at times and is great as far as speed getting to production.'
+    },
+    {
+        id: 7,
+        identifier: 7,
+        technology: 'Adobe XD',
+        image: 'https://download.logo.wine/logo/Adobe_XD/Adobe_XD-Logo.wine.png',
+        information: 'Organizing designs before the coding ever starts is invaluable in regards to time saved and the relief of a clear direction.'
+    },
+    {
+        id: 8,
+        identifier: 8,
+        technology: 'Illustrator/Photoshop',
+        image: 'https://www.tcpl.org/sites/default/files/styles/large/public/2019-12/photoshop_illustrator_cs6_icons_1.jpg?itok=ORjeeoQV',
+        information: "Fell in love with these programs during my tenure as an art teacher and in writing my first children's book. I use every chance I get to bring my creative flair to my projects."
     }
 ]
 
