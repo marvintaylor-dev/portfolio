@@ -11,6 +11,13 @@
     & .introduction-message {
         display: flex;
         flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    @media (max-height: 500px){
+        & .introduction-message {
+            margin-top: 15rem;
+        }
     }
 
     @media (min-width: 450px){
