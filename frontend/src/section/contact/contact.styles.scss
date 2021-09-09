@@ -27,12 +27,11 @@
    
 
     @media screen and (min-width: 800px){
-    .contact-title {
+    .contact-title{
         font-size: $xl-txt;
-        margin-bottom: 3rem;
     }
     .contact-form-container{
-        max-width: 40vw;
+        width: 40vw;
     }
     }
 }
@@ -100,9 +99,6 @@
         display: flex;
         justify-content: space-between;
     }
-    .contact-title {
-        font-size: $xl-txt;
-    }
     .contact-form-container{
         width: 50%;
     }
@@ -115,6 +111,9 @@
 }
 
 @media screen and (min-width: 1000px){
+    .contact-title {
+        margin-bottom: 3rem;
+    }
     .contact-information-container{
         width: 80vw;
         font-size: $sm-txt;

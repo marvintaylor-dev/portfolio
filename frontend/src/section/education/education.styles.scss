@@ -5,13 +5,16 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     margin: 2em 36px;
     min-height: 100vh;
     color: $dark;
     margin-bottom: 4rem;
 
+   
+    
+    
      & .blue-box {
         width: 300px;
         height: 400px;
@@ -46,10 +49,12 @@
         z-index: 0;
     }
 
+    & main {
+        z-index: 1;
+    }    
 
 
     & .udemy-logo-container{
-        width: 80vw;
         z-index: 1;
 
         & .udemy-logo {
@@ -85,23 +90,36 @@
         }
     }
 
-    @media screen and (min-width: 800px){
-        .udemy-logo-container{
-            width: 80vw;
-            }
-    }
-    
-    & .education-section-title{
+    @media screen and (min-width: 1000px){
+        & main {
+            width: 70%;
+        }
+    }  
+}
+
+.all-education-components{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.education-section-title{
         font-size: $lg-txt;
         font-weight: $heavy-weight;
         color: $dark;
         margin: 3rem 0rem 4rem 0rem;  
         z-index: 1;
-    }
-
-    @media screen and (min-width: 1000px){
-        .education-section-title{
-            font-size: 60px;
-        }
-    }
 }
+
+
+@media screen and (min-width: 1000px){
+    .education-section-title{
+        font-size: $xl-txt;
+    }
+    .all-education-components {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+

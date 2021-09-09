@@ -19,14 +19,6 @@ const EDUCATION_DATA = [
         instructor: 'Colt Steele',
         course: 'MySQL Bootcamp, Data Structures / Algorithms, Web Developer Bootcamp',
         year: 2020
-    },
-    {
-        id: 4,
-        type: 'college',
-        image: 'https://www.logolynx.com/images/logolynx/6c/6c18b4f7813f8bbacb28550f534a26c2.jpeg',
-        institution: 'Barry University',
-        degree: 'Masters of Social Work',
-        year: 2013
     }
 ]
 

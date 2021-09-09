@@ -4,7 +4,8 @@ import './education.styles.scss'
 
 import EDUCATION_DATA from '../../section/education/education.data'
 
-import EducationContainer from '../../components/education-container/education-container.components'
+import UdemySection from '../../components/education-container/udemy-container/udemySection.components'
+import College from '../../components/education-container/education-college/education-college.components'
 
 class Education extends React.Component {
     constructor(props) {
@@ -26,12 +27,19 @@ class Education extends React.Component {
                     <div className="circle-right"></div>
                 </div>
                 <div className="education-section-title">EDUCATION</div>
-                <div className="udemy-logo-container">
-                    <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="udemy-logo" className="udemy-logo" />
-                </div>
-                {educationData.map(({ id, ...otherProps }) => (
-                    <EducationContainer key={id} {...otherProps} />
-                ))}
+                <main>
+                    <div className="udemy-information">
+                        <div className="udemy-logo-container">
+                            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="udemy-logo" className="udemy-logo" />
+                        </div>
+                        <div className="all-education-components">
+                            {educationData.map(({ id, ...otherProps }) => (
+                                <UdemySection key={id} {...otherProps} />
+                            ))}
+                        </div>
+                    </div>
+                    <College />
+                </main>
             </div>
         )
     }

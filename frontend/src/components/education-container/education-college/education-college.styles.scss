@@ -7,11 +7,6 @@
     margin-bottom: 30px;
 }
 
-
-.college-class-container{
-    width: 80vw;
-}
-
 .degree-year-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,12 +20,31 @@
     }
 }
 
+.college-class-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .college-class-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 
 @media screen and (min-width: 800px){
+    .img-container {
+        display: flex;
+        align-items: center;
+        height: 150px;
+    }
     .college-logo{
         width: 150px;
-        margin-bottom: 3rem;
     }
+   
     .degree-year-container{
         line-height: 33px;
     }
@@ -41,22 +55,5 @@
     .degree-name,
     .year {
         font-size: $sm-txt;
-    }
-    .college-class-container{
-        margin-top: 3rem;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .college-class-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        flex-basis: auto;
-        margin-top: 5rem;
-
-        & section {
-            width: 60%;
-        }
     }
 }

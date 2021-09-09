@@ -2,25 +2,20 @@
 @import '../../../scss/abstracts/fonts';
 
 .udemy-class-container {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     z-index: 1;
-    width: 80vw;
-
+    
    & .udemy-logo {
         width: 90px;
-        height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
     
     & .instructor-course-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        line-height: 25px;
-        width: 100%;
-    
+        
         & .instructor-heading, 
-        & .course-heading {
+        & .course-heading, 
+        & .year-heading {
+            margin-bottom: .2rem;
             font-weight: $med-weight;
         }
 
@@ -28,26 +23,21 @@
         .course-name, 
         .year{
             font-size: $sm-txt;
+            margin-bottom: .4rem;
+        }
+
+        .instructor-course-sectionTwo .course-name{
+            width: 300px;
         }
     }
     
    
    
     @media screen and (min-width: 800px){
-        .instructor-course-container{
-            grid-template-columns: repeat(3, 1fr);
-            max-width: 70vw;
+        .instructor-course-container{    
             line-height: 33px;
         }
-        .instructor-course-sectionOne,
-        .instructor-course-sectionTwo,
-        .instructor-course-sectionThree {
-            width: 400px;
-        }
-        
-        .instructor-course-sectionTwo .course-name{
-            width: 300px;
-        }
+       
         .instructor-heading,
         .course-heading,
         .year-heading {
@@ -61,18 +51,12 @@
         }
     }
 
-    @media screen and (min-width:1300px){
-        .instructor-course-sectionOne,
-        .instructor-course-sectionTwo,
-        .instructor-course-sectionThree {
-            width: 500px;
+    @media screen and (min-width: 1000px){
+        .udemy-class-container {
+            margin-bottom: 0rem 0rem;
+            z-index: 1;
         }
     }
 
-    @media screen and (max-width: 1100px){
-        .instructor-course-sectionThree{
-            display: none;
-        }
-    }
 }
 
