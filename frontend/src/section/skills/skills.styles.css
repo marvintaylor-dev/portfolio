@@ -1,0 +1,66 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.vh-80 {
+  min-height: 80vh;
+}
+
+.skills-container {
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.skills-text-container {
+  max-width: 500px;
+}
+
+.skills-text-title {
+  color: #121212;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.skills-text-paragraph {
+  line-height: 1.4rem;
+}
+
+.skills-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: auto;
+}
+/*# sourceMappingURL=skills.styles.css.map */

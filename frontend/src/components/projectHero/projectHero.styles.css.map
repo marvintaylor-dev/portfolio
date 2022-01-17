@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADTF,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,QAAQ;EACrB,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,uBAAuB,CAAC;EACpB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,KAAK;CACnB;;AAED,AAAA,gBAAgB,CAAC;EACb,aAAa,EAAE,IAAI;CACtB;;AAGD,AAAA,mBAAmB,CAAC;EAChB,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,kBAAkB,CAAC;EACf,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "projectHero.styles.scss",
+        "../../scss/abstracts/_colors.scss",
+        "../../scss/abstracts/_fonts.scss"
+    ],
+    "names": [],
+    "file": "projectHero.styles.css"
+}

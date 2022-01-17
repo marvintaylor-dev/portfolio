@@ -23,11 +23,11 @@ class Navbar extends React.Component {
         const { openMenu } = this.state;
 
         return (
-            <nav className="navbar">
-                <div className="navbar-logo">
+            < nav className="navbar" >
+                <a href="/#" className="navbar-logo">
                     <div className="navbar-logo__line1">Marvin Taylor</div>
                     <div className="navbar-logo__line2">Software Developer</div>
-                </div>
+                </a>
 
                 <div className={`${openMenu ? "showMenu" : ""} navbar-hamburger-container`} onClick={this.handleClick}>
                     <div className="top-line"></div>
@@ -36,7 +36,7 @@ class Navbar extends React.Component {
                 </div>
                 <Dropdown open={openMenu} />
                 <Links />
-            </nav>
+            </nav >
         )
     }
 }

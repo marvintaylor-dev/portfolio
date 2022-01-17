@@ -1,0 +1,18 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.title {
+  text-decoration: none;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #121212;
+}
+/*# sourceMappingURL=section_title.css.map */

@@ -1,0 +1,33 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
+.scroll_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	position: absolute;
+	bottom: 5%;
+    width: 100px;
+}
+
+.scroll_text {
+    font-size: $lg-txt;
+}
+
+.arrowDown {
+    color: $primary;
+	animation: fadeIn 1.5s infinite ease-in both;
+}
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}

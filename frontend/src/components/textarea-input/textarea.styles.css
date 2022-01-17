@@ -1,0 +1,116 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.group {
+  position: relative;
+}
+
+.group .form-input {
+  background-color: white;
+  color: #1D86FF;
+  font-size: 1.125rem;
+  padding: 10px 10px;
+  display: block;
+  width: 100%;
+  border-radius: .2em;
+  border: 1px solid #1D86FF;
+  margin: 0rem 0;
+}
+
+.group .form-input:focus {
+  outline: none;
+}
+
+.group .form-input:focus ~ .form-input-label {
+  top: -10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.group input[type='password'] {
+  letter-spacing: 0.3em;
+}
+
+.group .form-input-label {
+  color: #1D86FF;
+  font-size: 1rem;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 25px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.group .form-input-label.shrink {
+  top: -10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.group {
+  position: relative;
+  margin: 2em 0;
+}
+
+.group .textarea-input {
+  background-color: white;
+  color: #1D86FF;
+  font-size: 1.125rem;
+  padding: 10px 10px;
+  display: block;
+  width: 100%;
+  border-radius: .2em;
+  border: 1px solid #1D86FF;
+  margin: 0rem 0;
+  resize: none;
+}
+
+.group .textarea-input:focus {
+  outline: none;
+}
+
+.group .textarea-input:focus ~ .textarea-input-label {
+  top: -10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.group .textarea-input-label {
+  color: #1D86FF;
+  font-size: 1rem;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 25px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.group .textarea-input-label.shrink {
+  top: -10px;
+  font-size: 1rem;
+  color: white;
+}
+/*# sourceMappingURL=textarea.styles.css.map */

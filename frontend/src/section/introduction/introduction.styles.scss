@@ -1,122 +1,62 @@
 @import '../../scss/abstracts/colors';
 @import '../../scss/abstracts/fonts';
 
-.introduction-container{
+
+.introduction-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.introduction-heading {
+  margin-bottom: 3rem;
+}
+
+  .introduction-message {
     display: flex;
-    align-items: center;
-    margin: 0em 36px;
-    height: 110vh;
+    flex-direction: column;
+    max-width: 700px;
+  }
+  
+  .introduction-message__name {
+    font-size: $xl-txt;
+    font-weight: $heavy-weight;
     color: $dark;
+  }
+  
+  .introduction-message__job-title {
+    font-size: $xl-txt;
+    font-weight: $light-weight;
+    color: $dark;
+  }
+  
+  .introduction-message__welcome {
+    font-size: $lg-txt;
+    font-weight: $extra-light;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+  }
 
-    & .introduction-message {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0rem;
+  .circle {
+    min-height: 400px;
+    min-width: 400px;
+    border-radius: 50%;
+    position: relative;
+    background: $primary;
+  }
+
+  .heroImg {
+    position: absolute;
+    bottom: 4rem;
+    left: 7rem;
+  }
+
+  @media (max-width: 1000px) {
+    .circle {
+      display: none;
     }
-
-    @media (max-height: 500px){
-        & .introduction-message {
-            margin-top: 15rem;
-        }
+    .heroImg {
+      display: none;
     }
-
-    @media (min-width: 450px){
-        .introduction-message{
-            width: 525px;
-            margin-left: 15vw;
-            margin-right: 15vw;
-        }
-    }
-
-    @media (min-width: 1000px){
-        .introduction-message{
-            width: 525px;
-            margin-left: 5vw;
-            margin-right: 15vw;
-        }
-        .headshot{
-            position: absolute;
-            margin-top: 3rem;
-            top: 0;
-            right: -20vw;
-            height: 135vh;
-            opacity: .2;
-        }
-    }
-
-    @media screen and (min-width: 1000px){
-        .introduction-bottom-blue{
-            height: 13rem;
-            width: 150vw;
-            left: -10vh;
-            background-color: $primary;
-            position: absolute;
-            bottom: -15rem;
-            z-index: 1;
-            transform: rotate(-5deg);
-        }
-    }
-    @media screen and (min-width: 1200px){
-        .introduction-bottom-blue{
-            bottom: -11rem;
-        }
-    }
-
-
-    @media screen and (min-width: 1150px){
-        .headshot{
-            right: -10vw;
-        }
-    }
-
-    @media screen and (min-width: 1450px){
-        .headshot{
-            right: 5vw;
-        }
-        .introduction-message{
-            margin-left: 15vw;
-        }
-    }
-
-    @media screen and (max-width: 1000px){
-        .headshot {
-            display: none;
-        }
-    }
-
-
-    & .introduction-message .introduction-heading{
-        margin: 0em 0em 3.5em 0em;
-
-        .introduction-message__line1 {
-            font-weight: $extra-light;
-        }
-        
-        .introduction-message__name {
-            font-size: $lg-txt;
-            font-weight: $med-weight;
-            margin: .3em 0em;
-        }
-
-        .introduction-message__name span {
-            font-size: $sm-txt;
-            font-weight: $extra-light;
-        }
-        
-        .introduction-message__job-title{
-            font-weight: $extra-light;
-        }
-    }
-    
-    .introduction-message__about-me {
-        font-size: $sm-txt;
-        font-weight: $light-weight;
-        line-height: 2em;
-    }
-}
-
-@media (min-width: 1200px){
-    .introduction-container{
-        height: 100vh;
-    }
-}
+  }

@@ -1,0 +1,59 @@
+
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+.resume-image {
+    height: auto;
+    max-width: 100%;
+}
+
+.resume-img-container {
+    max-width: 800px;
+    margin: 5rem;
+}
+
+.resume-container {
+    max-width: 600px;
+}
+
+.resume-content {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 10rem;
+}
+
+.resume-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 4rem;
+}
+
+.downloadBtn {  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: auto;
+    padding: 0rem 2rem;
+    height: 50px;
+    background-color: $primary;
+    font-weight: $light-weight;
+    font-size: $md-txt;
+    color: $light;
+}
+
+.white {
+    background-color: $light;
+    border: 1px solid $primary;
+    color: $primary;
+}
+
+
+@media (max-width: 800px){
+    .resume-img-container {
+        margin-bottom: 5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+}

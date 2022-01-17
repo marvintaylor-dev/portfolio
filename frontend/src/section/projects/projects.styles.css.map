@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADRF,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,mBAAmB,CAAA;EACf,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "projects.styles.scss",
+        "../../scss/abstracts/_colors.scss",
+        "../../scss/abstracts/_fonts.scss"
+    ],
+    "names": [],
+    "file": "projects.styles.css"
+}

@@ -1,0 +1,31 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+.image-container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: $primary;
+    border-radius: 50%;
+    position: relative;
+}
+
+.contactMeImg {
+    position: absolute;
+    top: -10rem;
+    right: 4rem;
+}
+
+.contact-me-container {
+    width: auto;
+}
+
+.contact-me-content {
+    justify-content: space-between;
+    width: 1000px;
+}
+
+@media (max-width: 1000px){
+    .image-container {
+        display: none;
+    }
+}

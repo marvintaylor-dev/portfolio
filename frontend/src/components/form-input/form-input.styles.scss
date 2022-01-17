@@ -3,27 +3,24 @@
 
 @mixin shrinkLabel {
     top: -10px;
-    font-size: 14px;
+    font-size: 1rem;
     color: $light;
   }
 
 @mixin form-input{
-  background: none;
-  background-color: $primary;
-  color: $light;
+  background-color: $light;
+  color: $primary;
   font-size: $md-txt;
-  padding: 20px 10px 20px 20px;
+  padding: 10px 10px;
   display: block;
   width: 100%;
-  border-radius: .5em;
-  border: 1px solid $light;
+  border-radius: .2em;
+  border: 1px solid $primary;
   margin: 0rem 0;
-  box-shadow: -19px 10px 38px -3px rgba(3, 8, 63, 0.15);
 }
 
 @mixin form-input-label {
-  background-color: $primary;
-  color: $light;
+  color: $primary;
   font-size: $sm-txt;
   padding: 0rem 1rem;
   font-weight: $light-weight;
@@ -36,7 +33,6 @@
   
   .group {
     position: relative;
-    margin: 45px 0;
   
     .form-input {
       @include form-input();

@@ -1,0 +1,33 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.btn {
+  width: auto;
+  height: auto;
+  padding: .6rem 2rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.background-blue {
+  background-color: #1D86FF;
+  color: white;
+}
+
+.background-white {
+  background-color: white;
+}
+/*# sourceMappingURL=buttonExternal.styles.css.map */

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADTF,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,SAAS;EAClB,gBAAgB,ECYR,SAAS;EDXjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,YAAY,CAAA;EACR,KAAK,ECQF,KAAK;CDPX",
+    "sources": [
+        "skill.styles.scss",
+        "../../scss/abstracts/_colors.scss",
+        "../../scss/abstracts/_fonts.scss"
+    ],
+    "names": [],
+    "file": "skill.styles.css"
+}

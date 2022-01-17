@@ -1,0 +1,34 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+.min-height100 {
+    min-height: 100vh;
+    margin-bottom: 3rem;
+}
+
+.page-hero-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-content-container {
+    margin-top: 3rem;
+    max-width: 600px;
+}
+
+.page-hero-title {
+    margin-bottom: 3rem;
+}
+
+
+.page-hero-subtitle {
+    margin-bottom: 3rem;
+}
+
+.page-hero-content {
+    margin-bottom: 3rem;
+}
+
+

@@ -1,0 +1,22 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.imageLeftContainer {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 900px) {
+  .imageLeft {
+    height: 300px;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=section-image-left.styles.css.map */

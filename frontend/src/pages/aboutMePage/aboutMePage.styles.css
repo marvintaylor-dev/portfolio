@@ -1,0 +1,33 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.aboutMeImg {
+  position: absolute;
+  top: -10rem;
+  right: 4rem;
+}
+
+.about-me-container {
+  max-width: 600px;
+}
+
+.about-me-content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+}
+
+@media (max-width: 800px) {
+  .image-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=aboutMePage.styles.css.map */

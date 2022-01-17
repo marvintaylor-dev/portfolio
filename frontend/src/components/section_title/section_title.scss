@@ -1,0 +1,10 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+.title{        
+    text-decoration: none;
+    font-size: $xl-txt;
+    text-transform: uppercase;
+    font-weight: $heavy-weight;
+    color: $dark;
+}

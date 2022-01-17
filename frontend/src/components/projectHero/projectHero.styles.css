@@ -1,0 +1,46 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.min-height100 {
+  min-height: 100vh;
+  margin-bottom: 3rem;
+}
+
+.page-hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page-content-container {
+  margin-top: 3rem;
+  max-width: 600px;
+}
+
+.page-hero-title {
+  margin-bottom: 3rem;
+}
+
+.page-hero-subtitle {
+  margin-bottom: 3rem;
+}
+
+.page-hero-content {
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=projectHero.styles.css.map */

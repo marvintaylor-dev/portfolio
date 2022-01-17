@@ -1,0 +1,41 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.image-container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #1D86FF;
+  border-radius: 50%;
+  position: relative;
+}
+
+.contactMeImg {
+  position: absolute;
+  top: -10rem;
+  right: 4rem;
+}
+
+.contact-me-container {
+  width: auto;
+}
+
+.contact-me-content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  .image-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=contactPage.styles.css.map */

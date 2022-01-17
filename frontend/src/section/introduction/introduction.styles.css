@@ -1,0 +1,80 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.introduction-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+}
+
+.introduction-heading {
+  margin-bottom: 3rem;
+}
+
+.introduction-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 700px;
+}
+
+.introduction-message__name {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #121212;
+}
+
+.introduction-message__job-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #121212;
+}
+
+.introduction-message__welcome {
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin-bottom: 2rem;
+}
+
+.circle {
+  min-height: 400px;
+  min-width: 400px;
+  border-radius: 50%;
+  position: relative;
+  background: #1D86FF;
+}
+
+.heroImg {
+  position: absolute;
+  bottom: 4rem;
+  left: 7rem;
+}
+
+@media (max-width: 1000px) {
+  .circle {
+    display: none;
+  }
+  .heroImg {
+    display: none;
+  }
+}
+/*# sourceMappingURL=introduction.styles.css.map */

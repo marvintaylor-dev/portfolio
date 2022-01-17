@@ -1,44 +1,48 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 
 import './project.styles.scss'
+import { Link } from 'react-router-dom'
 
-import { ReactComponent as Apprentice } from '../../assets/apprentice.svg'
-import { ReactComponent as Sorting } from '../../assets/sortingLogo.svg'
+import { gsap } from "../../assets/gsap/gsap"
 
 
-const Project = ({ id, name, purpose, specs, url, code, image }) => (
-    <div className="project-container">
-        <div className="project-logo-container">
+const layoutEffect = () => {
+    window.scrollTo(0, 0)
+};
+
+const Project = ({ name, imageName, explanation }) => {
+
+    /* const projectRef = useRef(null);
+    useEffect(() => {
+        gsap.from(
+            projectRef.current,
             {
-                id === 1 ?
-                    <Apprentice
-                        className="project-logo" /> :
-                    <Sorting
-                        className="project-logo" />
-            }
-        </div>
-        <div className="project-information-container">
-            <div className="project-name-container">
+                opacity: 0,
+                y: 100,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: projectRef.current,
+                    start: "top 90%",
+                    toggleActions: "play pause resume reset"
+                }
+            });
+    }); */
+
+    return (
+        <Link /* ref={projectRef} */ onClick={layoutEffect} to={`/projects/${name.toLowerCase()}`}>
+            <div className="project-container">
+                <div
+                    className="project-logo-container"
+                    style={{
+                        backgroundImage: `url(${require(`../../assets/images/${imageName}`).default})`
+                    }}>
+                </div>
                 <div className="project-name">{name}</div>
-            </div>
-            <div className="project-paragraph-container">
-                <div className="project-purpose">
-                    <p className="bold">Why:</p>
-                    <p>{purpose}</p>
-                </div>
-                <div className="project-specs">
-                    <p className="bold">Specs:</p>
-                    <p>{specs}</p>
-                </div>
-                <div className="project-url">
-                    <a href={url}>Website</a>
-                    <a href={code}>Github Code</a>
-                </div>
-            </div>
-        </div>
-    </div>
-);
+                <div className="project-explanation">{explanation}</div>
+            </div >
+        </Link>
+    )
+}
 
 export default Project
 
-//render indivual information and styles for project

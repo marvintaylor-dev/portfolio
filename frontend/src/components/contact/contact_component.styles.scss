@@ -1,0 +1,21 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
+.icon-container{
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 85%;
+    top: 90%;
+    z-index: 1;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+#awesomeIcon {
+    color: $dark;
+}

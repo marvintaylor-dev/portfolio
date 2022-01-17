@@ -1,46 +1,41 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import './projects.styles.scss'
 
 import Project from '../../components/project/project.components'
+import Title from '../../components/section_title/section_title.components'
 
-import PROJECT_DATA from './projects.data'
+import ProjectData from './projects.data'
+
+import { gsap } from '../../assets/gsap/gsap'
 
 //iterate through project data and render a project for each project object
 
-class Projects extends React.Component {
-    constructor(props) {
-        super(props);
+const Projects = () => {
+    useEffect(() => {
+        gsap.to("#projects", {
+            scale: 1.5,
+            ease: "none",
+            scrollTrigger: {
+                trigger: "#projects",
+                scrub: .5
+            }
+        });
+    });
 
-        this.state = {
-            project_data: PROJECT_DATA
-        };
-    }
-
-    render() {
-        const { project_data } = this.state;
-        return (
-            <div className="project-components-container">
-                <div className="project-body-styling">
-                    <div className="oval oval-one"></div>
-                    <div
-                        className="project-container-title"
-                        id="projects">
-                        PROJECTS
-                    </div>
-                    <div className="oval oval-two"></div>
-                    <div className="project-one-styling">
-                        {
-                            <Project key={1} {...project_data[0]} />
-                        }
-                    </div>
-                </div>
-                {
-                    <Project key={2} {...project_data[1]} />
-                }
+    return (
+        <div className="container">
+            <div className="center">
+                <Title title="Projects" id="projects" />
             </div>
-        )
-    }
+            <div className="projects-container">
+                {ProjectData.map(data => (
+                    <Project {...data} />
+                ))}
+            </div>
+        </div >
+    )
+
 }
 
 export default Projects;

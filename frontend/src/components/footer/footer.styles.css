@@ -1,0 +1,146 @@
+/* $primary: #1D86FF; */
+/* 
+PURPLE SCHEME
+$primary:#5E64AB;
+$secondary: #7A82DE;
+
+$dark: #34375E;
+$light: white;
+$off-white: #C1C4E3; 
+*/
+.footer-background {
+  background-color: #1D86FF;
+  height: auto;
+  padding: 2rem 5%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0rem 2rem;
+  gap: 20%;
+  width: 45%;
+}
+
+.footer-column-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column-margin {
+  margin: 0rem 1rem;
+}
+
+.column-title {
+  color: #121212;
+}
+
+.individual-project-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.link-container {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.link-container .header-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.link-container .header-link {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.link-container .header-link::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  bottom: -1rem;
+  width: 0%;
+  -webkit-transition: .2s width ease-in-out;
+  transition: .2s width ease-in-out;
+}
+
+.link-container .header-link:hover::after {
+  /* Hide the underline from showing in the footer. Change to 100% to show */
+  width: 0%;
+}
+
+.link {
+  color: white;
+  line-height: 1.5rem;
+}
+
+.link:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.personal-logo-container {
+  width: 20%;
+}
+
+.personal-logo {
+  font-size: 2rem;
+  color: white;
+  margin: 0rem 1rem;
+}
+
+.place-holder {
+  margin: 0rem 2rem;
+  width: 10%;
+}
+/*# sourceMappingURL=footer.styles.css.map */

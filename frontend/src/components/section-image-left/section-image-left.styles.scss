@@ -1,0 +1,14 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
+.imageLeftContainer {
+    flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 900px){
+    .imageLeft {
+        height: 300px;
+        width: auto;
+    }
+}

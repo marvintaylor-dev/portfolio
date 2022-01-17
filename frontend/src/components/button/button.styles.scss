@@ -1,0 +1,26 @@
+@import '../../scss/abstracts/colors';
+@import '../../scss/abstracts/fonts';
+
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: .6rem 2rem;
+    font-size: $md-txt;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    filter: brightness(110%);
+}
+
+
+.background-blue {
+    background-color: $primary;
+    color: white;
+}
+
+.background-white {
+    background-color: white;
+}

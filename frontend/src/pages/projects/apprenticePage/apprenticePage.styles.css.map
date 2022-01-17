@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE",
+    "sources": [
+        "apprenticePage.styles.scss",
+        "../../../scss/abstracts/_colors.scss",
+        "../../../scss/abstracts/_fonts.scss"
+    ],
+    "names": [],
+    "file": "apprenticePage.styles.css"
+}
