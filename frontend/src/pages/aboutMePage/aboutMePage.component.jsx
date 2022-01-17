@@ -5,7 +5,7 @@ import './aboutMePage.styles.scss'
 import Title from '../../components/section_title/section_title.components'
 import Button from '../../components/button/button.components'
 import SectionInfo from '../../components/section-info/section-info.component'
-import Headshot from '../../assets/images/illustrated-headshot.png'
+import Headshot from '../../assets/images/illustrated-headshot2.png'
 
 const AboutMePage = () => {
     return (
@@ -30,8 +30,8 @@ const AboutMePage = () => {
                         <Button url="/resume">Resume</Button>
                     </div>
                 </div>
-                <div className="image-container">
-                    <img className="medium-img aboutMeImg" src={Headshot} alt="Headshot" />
+                <div className="circle">
+                    <img className="heroImg" src={Headshot} alt="Headshot" />
                 </div>
 
             </div>

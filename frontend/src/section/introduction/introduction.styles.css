@@ -55,20 +55,6 @@ $off-white: #C1C4E3;
   margin-bottom: 2rem;
 }
 
-.circle {
-  min-height: 400px;
-  min-width: 400px;
-  border-radius: 50%;
-  position: relative;
-  background: #1D86FF;
-}
-
-.heroImg {
-  position: absolute;
-  bottom: 4rem;
-  left: 7rem;
-}
-
 @media (max-width: 1000px) {
   .circle {
     display: none;

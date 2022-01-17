@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADPF,AAAA,oBAAoB,CAAC;EACjB,SAAS,EAAE,IAAI;CAClB",
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADPF,AAAA,oBAAoB,CAAC;EACjB,SAAS,EAAE,IAAI;EACf,SAAS,EAAE,KAAK;CACnB",
     "sources": [
         "section-image-right.styles.scss",
         "../../scss/abstracts/_colors.scss",

@@ -9,7 +9,7 @@ $light: white;
 $off-white: #C1C4E3; 
 */
 .resume-image {
-  height: auto;
+  max-height: 270px;
   max-width: 100%;
 }
 

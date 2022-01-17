@@ -4,6 +4,7 @@
 
 .imageLeftContainer {
     flex-wrap: wrap-reverse;
+    min-width: 300px;
 }
 
 @media (max-width: 900px){

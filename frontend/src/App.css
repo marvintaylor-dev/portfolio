@@ -25,6 +25,19 @@ body {
     justify-content: center;
   }
 
+  .circle {
+    min-height: 400px;
+    min-width: 400px;
+    position: relative;
+  }
+
+  .heroImg {
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    bottom: 0rem;
+  }
+
 .flex-left {
   display: flex;
   align-items: center;

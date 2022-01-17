@@ -63,4 +63,11 @@ $off-white: #C1C4E3;
   gap: 10px;
   width: auto;
 }
+
+@media (max-width: 500px) {
+  .skills-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*# sourceMappingURL=skills.styles.css.map */

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 import './introduction.styles.scss';
-import TempHero from '../../assets/images/illustrated-headshot.png'
+import TempHero from '../../assets/images/illustrated-headshot2.png'
 import Resume from '../../pages/resume/resume.component'
 import Scroll from '../../components/scroll/scroll.components'
 import Button from '../../components/button/button.components'

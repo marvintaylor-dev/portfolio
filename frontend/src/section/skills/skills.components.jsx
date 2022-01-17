@@ -17,8 +17,8 @@ class Skills extends React.Component {
     render() {
         const { skillsData } = this.state;
         return (
-            <div className="container vh-80">
-                <div className="center mt-3">
+            <div className="container vh-100">
+                <div className="center mt-3 mb-3">
                     <Title title="Skills" id="skills" />
                 </div>
                 <div className="skills-container">

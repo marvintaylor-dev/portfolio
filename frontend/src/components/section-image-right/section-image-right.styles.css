@@ -11,5 +11,6 @@ $off-white: #C1C4E3;
 .imageRightContainer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  min-width: 300px;
 }
 /*# sourceMappingURL=section-image-right.styles.css.map */

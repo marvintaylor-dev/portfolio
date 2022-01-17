@@ -11,6 +11,7 @@ $off-white: #C1C4E3;
 .imageLeftContainer {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  min-width: 300px;
 }
 
 @media (max-width: 900px) {
