@@ -20,7 +20,7 @@ const ApprenticePage = () => {
     const project = Projects[0];
 
     return (
-        <div className="container">
+        <div className="container overflow-hidden">
             {/* pre-wrap is for creating paragraph whitespace with css */}
             <div className="project-hero pre-wrap">
                 <ProjectHero data={project} />

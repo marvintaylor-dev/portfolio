@@ -113,6 +113,10 @@ a, h1, h2, h3, h4, h5, h6, p {
   position: relative;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .project-hero {
   margin-top: 4rem;
 }
@@ -125,8 +129,8 @@ a, h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 900px){
   .image {
-      height: 300px;
-      width: auto;
+      height: auto;
+      width: 100%;
   }
   .mb-sm {
     margin-bottom: 7rem;

@@ -6,7 +6,7 @@ import './section-image-left.styles.scss'
 
 const SectionImageLeft = ({ img, subsection1, subsection2 }) => {
     return (
-        <section className="height-100vh center">
+        <section className="center">
             <div className="center gap-5 imageLeftContainer">
                 {
                     img ?

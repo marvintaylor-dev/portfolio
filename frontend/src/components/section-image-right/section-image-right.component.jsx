@@ -5,7 +5,7 @@ import './section-image-right.styles.scss'
 
 const SectionImageRight = ({ img, subsection1, subsection2 }) => {
     return (
-        <section className="height-100vh center">
+        <section className="center">
             <div className="center gap-5 imageRightContainer">
                 <div className="width-500">
                     <SectionInfo title={subsection1.title}>

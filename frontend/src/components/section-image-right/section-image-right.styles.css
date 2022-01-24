@@ -13,4 +13,10 @@ $off-white: #C1C4E3;
       flex-wrap: wrap;
   min-width: 300px;
 }
+
+@media (min-width: 700px) {
+  .imageRightContainer {
+    margin-bottom: 3rem;
+  }
+}
 /*# sourceMappingURL=section-image-right.styles.css.map */
