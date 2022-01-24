@@ -10,7 +10,7 @@ import ResumeIllustration from '../../assets/images/workspace-blue.png'
 
 const Resume = () => {
     return (
-        <section className="container center">
+        <section className="container center project-hero">
             <div className="center resume-content">
                 <div className="resume-container">
                     <Title title="Resume" />

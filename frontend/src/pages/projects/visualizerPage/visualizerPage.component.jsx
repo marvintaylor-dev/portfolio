@@ -9,7 +9,7 @@ import SectionImageRight from '../../../components/section-image-right/section-i
 const VisualizerPage = () => {
     const project = Projects[1];
     return (
-        <div className="container pre-wrap">
+        <div className="container project-hero pre-wrap">
             <ProjectHero data={project} />
             <SectionImageLeft data={project} img={project.image1} subsection1={project.struggles} subsection2={project.perseverance} />
             <SectionImageRight data={project} img={project.image2} subsection1={project.additions} />

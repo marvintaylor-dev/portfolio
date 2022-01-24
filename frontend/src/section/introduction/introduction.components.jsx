@@ -43,12 +43,12 @@ const Introduction = () => {
                         {/* <a href="#" target="_blank">
                     Resume</a> */}
                     </section>
-                    <div className="circle" ref={boxRef}>
-                        <img className="heroImg" src={TempHero} alt="Me" />
-                    </div>
+                    <img ref={boxRef} className="heroImg" src={TempHero} alt="Me" />
                 </div>
             </div>
-            <Scroll />
+            <div className="hero-scroll">
+                <Scroll />
+            </div>
         </>
     )
 }

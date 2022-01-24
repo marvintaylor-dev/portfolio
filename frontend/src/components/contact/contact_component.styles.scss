@@ -13,9 +13,23 @@
     top: 90%;
     z-index: 1;
     margin-right: 2rem;
-    margin-bottom: 5rem;
 }
 
 #awesomeIcon {
     color: $dark;
+}
+
+
+@media (max-width: 925px){
+    .icon-container {
+       opacity: 0;
+       pointer-events: none;
+    }
+}
+
+@media (max-height: 600px){
+	.icon-container {
+        opacity: 0.0;
+        pointer-events: none;
+	}
 }

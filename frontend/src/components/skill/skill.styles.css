@@ -9,8 +9,8 @@ $light: white;
 $off-white: #C1C4E3; 
 */
 .skill-container {
-  padding: 1rem 2rem;
-  background-color: #1d87ffbd;
+  padding: .7rem 1.3rem;
+  background-color: #1D86FF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

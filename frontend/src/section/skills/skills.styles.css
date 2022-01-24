@@ -8,12 +8,8 @@ $dark: #34375E;
 $light: white;
 $off-white: #C1C4E3; 
 */
-.vh-80 {
-  min-height: 80vh;
-}
-
 .skills-container {
-  min-height: 60vh;
+  min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,6 +19,7 @@ $off-white: #C1C4E3;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 5rem;
 }
 
 .skills-content-container {

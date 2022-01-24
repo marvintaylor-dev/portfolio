@@ -33,6 +33,12 @@ $off-white: #C1C4E3;
           animation: fadeIn 1.5s infinite ease-in both;
 }
 
+@media (max-height: 600px) {
+  .scroll_container {
+    display: none;
+  }
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;

@@ -4,6 +4,10 @@ import './footer.styles.scss'
 import { Link } from 'react-router-dom'
 import Links from '../../components/links/links.components'
 
+
+import '../../components/contact/contact_component.styles.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const layoutEffect = () => {
     window.scrollTo(0, 0)
 };
@@ -29,7 +33,14 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="place-holder"></div>
+            <div className="personal-logo-container">
+                <a href="https://www.linkedin.com/in/marvin-taylor-dev/" target="_blank">
+                    <FontAwesomeIcon id="awesomeIcon" size="4x" icon={["fab", "linkedin"]} />
+                </a>
+                <a href="https://github.com/marvintaylor-dev/" target="_blank">
+                    <FontAwesomeIcon id="awesomeIcon" size="4x" icon={["fab", "github"]} />
+                </a>
+            </div>
         </div>
     )
 }

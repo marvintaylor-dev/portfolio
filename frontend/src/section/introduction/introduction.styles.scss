@@ -6,7 +6,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.introduction-container .heroImg{
+  min-width: 300px;
+  height: auto;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .introduction-heading {
@@ -35,16 +45,33 @@
     font-size: $lg-txt;
     font-weight: $extra-light;
     line-height: 1.5em;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
 
+  .hero-scroll {
+    display: none;
+  }
+  
+
+@media (min-width: 500px){
+  .hero-scroll {
+    display: block;
+  }
+}
 
   @media (max-width: 1000px) {
-    .circle {
-      display: none;
-    }
     .heroImg {
       display: none;
     }
+
+    .introduction-container{
+      margin-top: 0rem;
+    }
+  }
+
+  @media (max-height: 700px){
+    .introduction-container .heroImg{
+      width: 300px;
+    }    
   }

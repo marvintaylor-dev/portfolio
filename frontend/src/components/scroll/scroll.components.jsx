@@ -4,7 +4,11 @@ import React from 'react'
 import './scroll.styles.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
+
 const Scroll = () => {
+
+
     return (
         <div className="center">
             <div className="scroll_container">

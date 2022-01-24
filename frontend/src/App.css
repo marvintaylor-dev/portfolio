@@ -1,6 +1,6 @@
 body {
-    font-family:  Montserrat;
-    overflow-x: hidden;  
+    font-family:  Montserrat, sans-serif;
+    overflow-x: hidden;
 }
 
 * {
@@ -18,24 +18,16 @@ body {
     padding: 0px 36px;
 }
   
-
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .circle {
-    min-height: 400px;
-    min-width: 400px;
-    position: relative;
-  }
-
   .heroImg {
-    max-width: 400px;
+    width: 400px;
     height: auto;
-    position: absolute;
-    bottom: 0rem;
+    padding-bottom: 5rem;
   }
 
 .flex-left {
@@ -121,6 +113,15 @@ a, h1, h2, h3, h4, h5, h6, p {
   position: relative;
 }
 
+.project-hero {
+  margin-top: 4rem;
+}
+
+@media (max-width: 500px){
+  .project-hero{
+    margin-top: 0rem;
+  }
+}
 
 @media (max-width: 900px){
   .image {
