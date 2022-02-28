@@ -12,13 +12,6 @@ $off-white: #C1C4E3;
   display: none;
 }
 
-.header-links-container a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.125rem;
-  font-weight: 700;
-}
-
 .header-link {
   color: white;
   font-size: 1.125rem;
@@ -50,6 +43,21 @@ $off-white: #C1C4E3;
 .slideIn a {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
+}
+
+.selected {
+  color: #dadada;
+  position: relative;
+}
+
+.selected::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  bottom: -1rem;
+  width: 100%;
 }
 
 @media (max-width: 999px) {

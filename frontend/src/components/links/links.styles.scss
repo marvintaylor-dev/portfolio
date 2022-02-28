@@ -3,15 +3,6 @@
 
 .header-links-container {
     display: none;
-
-    & a {
-        text-decoration: none;
-        color: $light;
-        font-size: $md-txt;
-        font-weight: $med-weight;
-    }
-
-   
 }
 
 .header-link {
@@ -45,6 +36,23 @@
 .slideIn a{
     transform: translateX(0%);
 }
+
+.selected {
+   color: $off-white;
+   position: relative;
+}
+
+.selected::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: $light;
+    position: absolute;
+    bottom: -1rem;
+    width: 100%;
+}
+
+
 
 @media (max-width: 999px){
     .header-links-container a {

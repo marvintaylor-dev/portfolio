@@ -12,7 +12,7 @@ const Projects = [
         image4: "LaptopPhoneViewApprentice.png",
         role: {
             title: "My Role",
-            info: "This is a solo-developed project conceptualized, designed, and coded by me."
+            info: "This is a solo-developed project. The idea was entirely conceptualized and designed by me, with a code base expanded upon from course material."
         },
         why: {
             title: "Why Create This?",
@@ -20,23 +20,23 @@ const Projects = [
         },
         problem: {
             title: "The Problem",
-            info: "Often students have no real-world connection to careers outside of their sphere of influence. We essentially have a world in which information is easily accessible, but we are heavily influenced by the people around us."
+            info: "Often students have no real-world connection to careers outside of their sphere of influence. We essentially have a world in which information is easily accessible, but we are heavily influenced by who we interact with."
         },
         solution: {
             title: "My Proposed Solution",
-            info: "Mobilize people from every profession to become a remote or in-person mentor. A social platform, specifically designed for discovering careers will expose not only the existence of certain professions but will demystify them as well."
+            info: "Mobilize people from every profession to become a remote or in-person mentor. A social platform, specifically designed for discovering career possibilities will expose the existence of some professions and demystify others."
         },
         struggles: {
             title: "Struggles",
-            info: "The shear size and scope of the project. Many moving parts that all needed to fit together from user modeling, persistency of data, user to user communication with lots of UI work.\n\nManaging feature creep was huge. There was always a new idea of what the web app could potentially do that it was necessary to add restraints in order to try and maintain a working MVP."
+            info: "The shear size and scope of the project. Many moving parts that all needed to fit together from user modeling, persistency of data, user to user communication with lots of UI work.\n\nManaging feature creep was huge. There was always a new idea for potential functionality popping up. Eventually, it was necessary to add restraints in order to try and maintain a working MVP."
         },
         perseverance: {
             title: "How I Worked Through",
-            info: "I tried to break the project down into smaller parts to make it manageable. Getting one thing to work at a time made me slow down and think about what was realistically possible."
+            info: "I tried to break the project down into smaller parts to make it manageable. It became increasingly important to focus on one component at a time. My biggest lesson was to focus on functionality and reusablity. Get it working, then move on to the next thing."
         },
         changes: {
             title: "If I Could Start Over Again...",
-            info: "The Lean Startup encourages always having an MVP ready. I would have maintained a shippable product throughout the development process.\n\nI would incorporate a modular way of thinking making code reusability a priority.\n\nI would save much of the design work until after the Functionality has been achieved.\n\nI would niche down the project instead of having such a broad scope. Focus on doing one or two Features really well.\n\nI would rework the idea. I probably overestimated the number of people prepared to be a mentor. My concerns would be poor user experience or training the average person to become a competent mentor."
+            info: "The Lean Startup encourages always having an MVP ready. I would have maintained a shippable product throughout the development process.\n\nI would incorporate a modular way of thinking; make code reusability a priority.\n\nI may have jumped too quickly into design decisions. Eliminate 'cool to haves' and replace with 'must haves'\n\nI would niche down the project instead of having such a broad scope. Focus on doing one or two Features really well.\n\nI would rework the idea. I probably overestimated the number of people prepared to be a mentor. My concerns would be poor user experience as the average person may not be ready for a mentorship role. A heavily guided path for mentors would be necessary."
         },
         wishlist: {
             title: "Wishlist for the Project",
@@ -44,7 +44,7 @@ const Projects = [
         },
         technology: {
             title: "Tecnology Used",
-            info: "Javascript\nEmbedded Javascript\nSCSS\nCSS\nNode.Js\nExpress.Js\nMongoose.Js\nMongoDB\nMongoAtlas\nHeroku"
+            info: "Javascript / Embedded Javascript\nSCSS / CSS\nNode.Js / Express.Js\nMongoose.Js\nMongoDB\nMongoAtlas\nHeroku"
         }
     },
     {
@@ -59,19 +59,19 @@ const Projects = [
         image3: "DarkVsLight.png",
         role: {
             title: "My Role",
-            info: "This is a solo-developed project conceptualized, designed, and coded by me."
+            info: "This is a solo-developed project."
         },
         why: {
             title: "Why Create This?",
-            info: "I wanted to work on an application with a specific scope and purpose which allowed me to work on both algorithms and UI alike."
+            info: "I wanted to work on an application that involved both algorigms and DOM manipulation which involved some sort of interaction with the software."
         },
         problem: {
             title: "The Problem",
-            info: "How can I display algorithms in a visually interesting way, accurate, and responsive way"
+            info: "How can I display algorithms in a visually interesting, accurate, and responsive way"
         },
         solution: {
             title: "Features",
-            info: "Responsive design for mobile or web, Custom light / dark icon animation, Customizable algorithm speed and number of bars, User friendly interface"
+            info: "Responsive design from mobile to web, color theme toggle with a custom made icon, customizable algorithm speed and number of bars, an 'assortment of sorting algorithms', and user friendly interface"
         },
         struggles: {
             title: "Struggles",
