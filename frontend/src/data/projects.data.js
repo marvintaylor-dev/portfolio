@@ -3,7 +3,7 @@ const Projects = [
         id: 1,
         title: 'Apprentice',
         subtitle: 'Mentoring Platform',
-        siteUrl: 'https://polite-crown-37314.herokuapp.com/',
+        siteUrl: 'http://apprenticeapp.live',
         codeUrl: 'https://github.com/marvintaylor-dev/apprentice',
         heroImg: 'LaptopViewApprentice.png',
         image1: "cluster1.png",
