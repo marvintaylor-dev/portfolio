@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
 
             <div className="personal-logo-container">
-                <a href="https://www.linkedin.com/in/marvin-taylor-dev/" target="_blank">
+                <a href="https://www.linkedin.com/in/marvtaylor/" target="_blank">
                     <FontAwesomeIcon id="awesomeIcon" size="4x" icon={["fab", "linkedin"]} />
                 </a>
                 <a href="https://github.com/marvintaylor-dev/" target="_blank">
