@@ -29,7 +29,7 @@ const Links = ({ open }) => {
             <a href="/#projects" className="header-link">Projects</a>
             <a href="/#skills" className="header-link">Skills</a>
             <NavLink
-                to="/resume"
+                to={"/resume"}
                 exact={true}
                 onClick={layoutEffect}
                 className="header-link"
@@ -38,7 +38,7 @@ const Links = ({ open }) => {
             </NavLink>
             {/* <a href="/contactpage" className="header-link">Contact</a> */}
             <NavLink
-                to="/aboutme"
+                to={"/aboutme"}
                 exact={true}
                 onClick={layoutEffect}
                 className="header-link"
