@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './resume.styles.scss'
-import ResumePDF from '../../assets/resume/Resume.pdf'
+import ResumePDF from '../../assets/resume/MarvinTaylorResume.pdf'
 
 import Title from '../../components/section_title/section_title.components'
 import SectionInfo from '../../components/section-info/section-info.component'

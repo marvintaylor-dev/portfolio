@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react'
+// import React, { useLayoutEffect } from 'react'
 
 import './footer.styles.scss'
 import { Link } from 'react-router-dom'

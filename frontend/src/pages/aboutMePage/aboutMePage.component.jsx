@@ -14,16 +14,17 @@ const AboutMePage = () => {
                 <div className="about-me-container">
                     <Title title="About Me" />
                     <SectionInfo>
-                        Hi! My name is Marvin and I'm a software developer. I can work on the front or back end of projects, and each side has its perks.
+                        Hi! My name is Marvin. I'm a software developer and professional scrum master. I have an entreprenurial spirit and I love developing products, strategizing about improving the user experience, and making sure everyone is healthy, happy, and fulfilled while we get there.
                         <br />
                         <br />
-                        I love being able to use my visual creativity on front-end work whether it be a designing a custom illustration, UI element, or cool parallax effect. On the other hand, data architecture and constructing working APIs is also fascinating in its own right.
+                        I'm always excited to work cross-functionally whether it be collaborating on wireframes and detailed mockups, writing acceptance criteria, facilitating meetings, or contributing code. 
+                        {/* I love being able to use my visual creativity on front-end work whether it be a designing a custom illustration, UI element, or cool parallax effect. On the other hand, data architecture and constructing APIs is also fascinating in its own right. */}
                         <br />
                         <br />
-                        As a former clinical social worker and teacher I am driven by improvement. Whether it be self-improvement or the improvement of a person, product or system.
+                        As a former clinical social worker and teacher I am driven by continuous improvement. Whether it's the improvement of a person, product or system.
                         <br />
                         <br />
-                        I LIVE FOR making things better for myself and others. I strive to bring that same helping and collaborative spirit with me into every project I delve into and every team I work with.
+                        I LIVE FOR making things better and I bring that helping and collaborative spirit with me into every project I delve into and every team I work with.
                     </SectionInfo>
 
                     <div className="width-200 mt-3">

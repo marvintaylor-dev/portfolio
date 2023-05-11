@@ -1,7 +1,7 @@
 const SKILLS_DATA = [
     {
         id: 1,
-        technology: 'HTML / CSS / SCSS',
+        technology: 'HTML / CSS',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png',
         information: 'Although they are my biggest headache, my favorite aspect of CSS has to be animations and transitions. There are few things more satisfying than a well done parallax.'
     },
@@ -29,38 +29,46 @@ const SKILLS_DATA = [
     },
     {
         id: 6,
-        technology: 'ASP .NET CORE'
+        technology: 'Blazor'
     },
     {
         id: 7,
-        technology: 'MySQL',
+        technology: 'ASP .NET CORE'
+    },
+    {
+        id: 8,
+        technology: 'SQL',
         image: 'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
         information: 'Syntax, syntax, syntax. I love the way SQL reads as it makes it easier to understand what is happening. Also working with data is just fun.'
     },
     {
-        id: 8,
+        id: 9,
         technology: 'MongoDB',
         image: 'https://img.icons8.com/color/452/mongodb.png',
         information: 'Great for scalability as an app grows and also easy to use.'
     },
     {
-        id: 9,
+        id: 10,
         technology: 'Adobe XD',
         image: 'https://download.logo.wine/logo/Adobe_XD/Adobe_XD-Logo.wine.png',
         information: 'Organizing designs before the coding ever starts is invaluable in regards to time saved and the relief of a clear direction.'
     },
     {
-        id: 10,
+        id: 11,
         technology: 'Illustrator',
         image: 'https://www.tcpl.org/sites/default/files/styles/large/public/2019-12/photoshop_illustrator_cs6_icons_1.jpg?itok=ORjeeoQV',
         information: "Fell in love with these programs during my tenure as an art teacher and in writing my first children's book. I use every chance I get to bring my creative flair to my projects."
     },
     {
-        id: 11,
+        id: 12,
         technology: 'Photoshop',
         image: 'https://www.tcpl.org/sites/default/files/styles/large/public/2019-12/photoshop_illustrator_cs6_icons_1.jpg?itok=ORjeeoQV',
         information: "Fell in love with these programs during my tenure as an art teacher and in writing my first children's book. I use every chance I get to bring my creative flair to my projects."
     },
+    {
+        id: 13,
+        technology: 'Git',
+    }
 ]
 
 export default SKILLS_DATA

@@ -31,7 +31,7 @@ const Introduction = () => {
                     <section className="introduction-message">
                         <header className="introduction-heading">
                             <div className="introduction-message__name">Marvin Taylor</div>
-                            <div className="introduction-message__job-title">Software Developer</div>
+                            <div className="introduction-message__job-title">Developer + Scrum Master</div>
                         </header>
                         <p className="introduction-message__welcome">
                             Hello! Welcome to my portfolio. I strive to provide a great user experience
