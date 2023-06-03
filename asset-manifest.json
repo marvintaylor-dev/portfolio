@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4405eab9.chunk.css",
-    "main.js": "/static/js/main.093bc26d.chunk.js",
-    "main.js.map": "/static/js/main.093bc26d.chunk.js.map",
+    "main.js": "/static/js/main.fdc5aabc.chunk.js",
+    "main.js.map": "/static/js/main.fdc5aabc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7b8d49f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7b8d49f5.js.map",
     "static/js/2.bf6acc9c.chunk.js": "/static/js/2.bf6acc9c.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/LaptopPhoneViewApprentice.png": "/static/media/LaptopPhoneViewApprentice.09ad6d0e.png",
     "static/media/LaptopViewApprentice.png": "/static/media/LaptopViewApprentice.7cfa8647.png",
     "static/media/LaptopViewVisualizer.png": "/static/media/LaptopViewVisualizer.96c69f1b.png",
-    "static/media/MarvinTaylorResume.2f0dd331.pdf": "/static/media/MarvinTaylorResume.2f0dd331.pdf",
+    "static/media/MarvinTaylorResume.0a82ea03.pdf": "/static/media/MarvinTaylorResume.0a82ea03.pdf",
     "static/media/SortingHome.png": "/static/media/SortingHome.11a9db99.png",
     "static/media/cluster1.png": "/static/media/cluster1.bdc513cd.png",
     "static/media/headshot.png": "/static/media/headshot.aa77360e.png",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.7b8d49f5.js",
     "static/js/2.bf6acc9c.chunk.js",
     "static/css/main.4405eab9.chunk.css",
-    "static/js/main.093bc26d.chunk.js"
+    "static/js/main.fdc5aabc.chunk.js"
   ]
 }
