@@ -14,7 +14,7 @@ import { gsap } from '../../assets/gsap/gsap'
 const Projects = () => {
     useEffect(() => {
         gsap.to("#projects", {
-            scale: 1.5,
+            scale: 1.2,
             ease: "none",
             scrollTrigger: {
                 trigger: "#projects",
@@ -26,7 +26,7 @@ const Projects = () => {
     return (
         <div className="container">
             <div className="center">
-                <Title title="Projects" id="projects" />
+                <Title title="Personal Projects" id="projects" />
             </div>
             <div className="projects-container">
                 {ProjectData.map(data => (

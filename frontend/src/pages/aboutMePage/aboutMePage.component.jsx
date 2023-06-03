@@ -14,7 +14,7 @@ const AboutMePage = () => {
                 <div className="about-me-container">
                     <Title title="About Me" />
                     <SectionInfo>
-                        Hi! My name is Marvin. I'm a software developer and professional scrum master. I have an entreprenurial spirit and I love developing products, strategizing about improving the user experience, and making sure everyone is healthy, happy, and fulfilled while we get there.
+                        Hi! My name is Marvin. I'm a professional Scrum Master with an entreprenurial spirit. I love developing products, strategizing about improving the user experience, and making sure everyone is healthy, happy, and fulfilled while we get there.
                         <br />
                         <br />
                         I'm always excited to work cross-functionally whether it be collaborating on wireframes and detailed mockups, writing acceptance criteria, facilitating meetings, or contributing code. 

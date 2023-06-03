@@ -5,6 +5,7 @@ import './skills.styles.scss'
 import Skill from '../../components/skill/skill.component'
 import Title from '../../components/section_title/section_title.components'
 
+
 class Skills extends React.Component {
     constructor(props) {
         super(props)

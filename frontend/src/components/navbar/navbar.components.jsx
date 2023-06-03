@@ -26,7 +26,7 @@ class Navbar extends React.Component {
             < nav className="navbar" >
                 <a href="/#" className="navbar-logo">
                     <div className="navbar-logo__line1">Marvin Taylor</div>
-                    <div className="navbar-logo__line2">Developer + Scrum Master</div>
+                    <div className="navbar-logo__line2">Scrum Master</div>
                 </a>
 
                 <div className={`${openMenu ? "showMenu" : ""} navbar-hamburger-container`} onClick={this.handleClick}>
