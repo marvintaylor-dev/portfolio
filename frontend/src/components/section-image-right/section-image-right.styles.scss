@@ -1,15 +1,17 @@
+@import "../../scss/abstracts/colors";
+@import "../../scss/abstracts/fonts";
 
-@import '../../scss/abstracts/colors';
-@import '../../scss/abstracts/fonts';
-
+.sectionRight {
+  max-width: 500px;
+}
 
 .imageRightContainer {
-    flex-wrap: wrap;
-    min-width: 300px;
+  flex-wrap: wrap;
+  min-width: 200px;
 }
 
 @media (min-width: 700px) {
-    .imageRightContainer {
-        margin-bottom: 3rem;
-    }
+  .imageRightContainer {
+    margin-bottom: 3rem;
+  }
 }

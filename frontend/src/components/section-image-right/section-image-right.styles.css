@@ -8,10 +8,14 @@ $dark: #34375E;
 $light: white;
 $off-white: #C1C4E3; 
 */
+.sectionRight {
+  max-width: 500px;
+}
+
 .imageRightContainer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 @media (min-width: 700px) {

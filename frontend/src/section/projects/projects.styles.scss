@@ -1,19 +1,15 @@
-@import '../../scss/abstracts/colors';
-@import '../../scss/abstracts/fonts';
-
+@import "../../scss/abstracts/colors";
+@import "../../scss/abstracts/fonts";
 
 #projects {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
-.projects-container{ 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 7rem 0rem; 
+.projects-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 7rem 0rem;
 }
-
-
-

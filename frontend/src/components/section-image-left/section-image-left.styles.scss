@@ -1,20 +1,23 @@
-@import '../../scss/abstracts/colors';
-@import '../../scss/abstracts/fonts';
+@import "../../scss/abstracts/colors";
+@import "../../scss/abstracts/fonts";
 
+.sectionLeft {
+  max-width: 500px;
+}
 
 .imageLeftContainer {
-    flex-wrap: wrap-reverse;
-    min-width: 300px;
+  flex-wrap: wrap-reverse;
+  min-width: 200px;
 }
 
 @media (min-width: 700px) {
-    .imageLeftContainer {
-        margin-bottom: 3rem;
-    }
+  .imageLeftContainer {
+    margin-bottom: 3rem;
+  }
 }
 
-@media (min-width: 1400px){
-    .imageLeftContainer {
-        height: 100vh;
-    }
+@media (min-width: 1400px) {
+  .imageLeftContainer {
+    height: 100vh;
+  }
 }

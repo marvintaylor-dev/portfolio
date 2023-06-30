@@ -14,7 +14,7 @@ const SectionImageLeft = ({ img, subsection1, subsection2 }) => {
                         :
                         ""
                 }
-                <div className="width-500">
+                <div className="sectionLeft">
                     <SectionInfo title={subsection1.title}>
                         {subsection1.info}
                     </SectionInfo>

@@ -8,10 +8,14 @@ $dark: #34375E;
 $light: white;
 $off-white: #C1C4E3; 
 */
+.sectionLeft {
+  max-width: 500px;
+}
+
 .imageLeftContainer {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 @media (min-width: 700px) {

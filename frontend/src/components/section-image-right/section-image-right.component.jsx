@@ -7,7 +7,7 @@ const SectionImageRight = ({ img, subsection1, subsection2 }) => {
     return (
         <section className="center">
             <div className="center gap-5 imageRightContainer">
-                <div className="width-500">
+                <div className="sectionRight">
                     <SectionInfo title={subsection1.title}>
                         {subsection1.info}
                     </SectionInfo>
