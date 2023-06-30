@@ -29,6 +29,7 @@ const Footer = () => {
                     <div className="individual-project-links">
                         <Link className="link" onClick={layoutEffect} to="/projects/apprentice">[Apprentice]</Link>
                         <Link className="link" onClick={layoutEffect} to="/projects/visualizer">[Visualizer]</Link>
+                        <Link className="link" onClick={layoutEffect} to="/projects/visualizer">[Tasky]</Link>
                     </div>
                 </div>
             </div>

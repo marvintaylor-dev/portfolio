@@ -1,24 +1,26 @@
-@import '../../scss/abstracts/colors';
-@import '../../scss/abstracts/fonts';
-
+@import "../../scss/abstracts/colors";
+@import "../../scss/abstracts/fonts";
 
 .aboutMeImg {
-    position: absolute;
-    top: -10rem;
-    right: 4rem;
+  position: absolute;
+  top: -10rem;
+  right: 4rem;
 }
 
 .about-me-container {
-    max-width: 600px;
+  margin-top: 5rem;
+  max-width: 600px;
 }
 
 .about-me-content {
-    justify-content: space-between;
-    width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
 }
 
-@media (max-width: 800px){
-    .image-container {
-        display: none;
-    }
+@media (max-width: 800px) {
+  .image-container {
+    display: none;
+  }
 }

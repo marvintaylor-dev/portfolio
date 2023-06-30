@@ -9,7 +9,7 @@ import Headshot from '../../assets/images/illustrated-headshot2.png'
 
 const AboutMePage = () => {
     return (
-        <section className="container height-100vh center">
+        <section className="container center">
             <div className="center about-me-content gap-5">
                 <div className="about-me-container">
                     <Title title="About Me" />
@@ -31,9 +31,11 @@ const AboutMePage = () => {
                         <Button url="/resume">Resume</Button>
                     </div>
                 </div>
-                <div className="circle">
-                    <img className="heroImg" src={Headshot} alt="Headshot" />
-                </div>
+             
+                    <div className="circle">
+                        <img className="heroImg" src={Headshot} alt="Headshot" />
+                    </div>
+             
 
             </div>
         </section>
