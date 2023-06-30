@@ -1,6 +1,5 @@
-@import '../../scss/abstracts/colors';
-@import '../../scss/abstracts/fonts';
-
+@import "../../scss/abstracts/colors";
+@import "../../scss/abstracts/fonts";
 
 .introduction-container {
   display: flex;
@@ -10,7 +9,7 @@
   margin-top: 5rem;
 }
 
-.introduction-container .heroImg{
+.introduction-container .heroImg {
   min-width: 300px;
   height: auto;
 }
@@ -23,55 +22,55 @@
   margin-bottom: 3rem;
 }
 
-  .introduction-message {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-  }
-  
-  .introduction-message__name {
-    font-size: $xl-txt;
-    font-weight: $heavy-weight;
-    color: $dark;
-  }
-  
-  .introduction-message__job-title {
-    font-size: $xl-txt;
-    font-weight: $light-weight;
-    color: $dark;
-  }
-  
-  .introduction-message__welcome {
-    font-size: $lg-txt;
-    font-weight: $extra-light;
-    line-height: 1.5em;
-    margin-bottom: 4rem;
-  }
+.introduction-message {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
 
+.introduction-message__name {
+  font-size: $xl-txt;
+  font-weight: $heavy-weight;
+  color: $dark;
+}
 
-  .hero-scroll {
-    display: none;
-  }
-  
+.introduction-message__job-title {
+  font-size: $xl-txt;
+  font-weight: $light-weight;
+  color: $dark;
+}
 
-@media (min-width: 500px){
+.introduction-message__welcome {
+  font-size: $lg-txt;
+  font-weight: $extra-light;
+  line-height: 1.5em;
+  margin-bottom: 4rem;
+}
+
+.hero-scroll {
+  display: none;
+}
+
+@media (min-width: 500px) {
   .hero-scroll {
     display: block;
   }
 }
 
-  @media (max-width: 1000px) {
-    .heroImg {
-      display: none;
-    }
-
-    .introduction-container{
-      margin-top: 0rem;
-    }
+@media (max-width: 1000px) {
+  .heroImg {
+    margin-top: 20%;
+    margin-bottom: 30%;
   }
 
-  @media (max-height: 700px){
-    .introduction-container .heroImg{
-      width: 300px;
-    }    
+  .introduction-container {
+    flex-direction: column-reverse;
+    margin-bottom: 10rem;
   }
+}
+
+@media (max-height: 700px) {
+  .introduction-container .heroImg {
+    width: 300px;
+  }
+}
