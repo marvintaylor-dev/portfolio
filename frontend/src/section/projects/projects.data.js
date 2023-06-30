@@ -10,6 +10,12 @@ const PROJECT_DATA = [
         imageName: 'SortingHome.png',
         name: 'Visualizer',
         explanation: 'Sorting Algorithm Visualizer',
+    },
+    {
+        id: 3,
+        imageName: 'TaskyBacklog.png',
+        name: 'Tasky',
+        explanation: 'Agile Project Management Software',
     }
 ]
 

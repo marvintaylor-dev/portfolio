@@ -12,7 +12,7 @@ const Homepage = () => {
     return (
         <>
             <Introduction />
-            <Projects />
+            <Projects /> 
             <Skills />
         </>
     )

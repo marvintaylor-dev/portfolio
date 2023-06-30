@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,wBAAwB;AAIxB;;;;;;;;EAQE;ADTF,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB",
+    "sources": [
+        "taskyPage.styles.scss",
+        "../../../scss/abstracts/_colors.scss",
+        "../../../scss/abstracts/_fonts.scss"
+    ],
+    "names": [],
+    "file": "taskyPage.styles.css"
+}

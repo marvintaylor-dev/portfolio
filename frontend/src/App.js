@@ -9,6 +9,7 @@ import Navbar from "./components/navbar/navbar.components";
 import Homepage from "./pages/homepage/homepage.component";
 import Apprentice from "./pages/projects/apprenticePage/apprenticePage.component";
 import Visualizer from "./pages/projects/visualizerPage/visualizerPage.component";
+import Tasky from "./pages/projects/taskyPage/taskyPage.component";
 import ContactPage from "./pages/contactPage/contactPage.component";
 import AboutMePage from "./pages/aboutMePage/aboutMePage.component";
 import Resume from "./pages/resume/resume.component";
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/" component={Homepage}></Route>
         <Route path="/projects/apprentice" component={Apprentice}></Route>
         <Route path="/projects/visualizer" component={Visualizer}></Route>
+        <Route path="/projects/tasky" component={Tasky}></Route>
         <Route path="/contactpage" component={ContactPage}></Route>
         <Route path="/resume" component={Resume}></Route>
         <Route path="/aboutme" component={AboutMePage}></Route>

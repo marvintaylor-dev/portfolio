@@ -89,6 +89,50 @@ const Projects = [
             title: "Technology Used",
             info: "Vanilla Javascript\nCSS\nHTML"
         }
+    },
+    {
+        id: 3,
+        title: 'Tasky',
+        subtitle: 'Agile Project Management Software',
+        siteUrl: 'Not Currently Available',
+        codeUrl: 'https://github.com/marvintaylor-dev/Tasky',
+        heroImg: 'LaptopViewTasky.png',
+        image1: "TaskyImageGroup1.png",
+        image2: "TaskyImageGroup2.png",
+        image3: "TaskySprints.png",
+        image4: "blazor.png",
+        role: {
+            title: "My Role",
+            info: "This is a solo-developed project."
+        },
+        why: {
+            title: "Why Create This?",
+            info: "In fulfilling my role as a Scrum Master I wanted to learn all there was to know about how to deliver a project using Agile methodologies. I also happen to have a love for creating and wanted to keep my coding skills sharp. Therefore I created this tool to manage projects."
+        },
+        problem: {
+            title: "The Problem",
+            info: "How can I address problems in a way that users would find usable and even preferable to how they currently operate? Are there areas that are not ideally addressed in current applications?"
+        },
+        solution: {
+            title: "Features",
+            info: "Various views including the Backlog, Assignee, Table, and Kanban. Custom components to add tags, acceptance criteria, move or add subtasks, drag and drop work into sprints, team/status configuration and more."
+        },
+        struggles: {
+            title: "Struggles",
+            info: "Working with a third party library to create the kanban board was a struggle. Understanding how to get the information to display as expected provided a challenge.\n\nThere were a great many struggles throughout the process. Probably too many to name here."
+        },
+        perseverance: {
+            title: "How I Worked Through",
+            info: "I dedicated myself to figuring out the solution via trial and error and did not let myself leave the issue alone until I found a solution.\n\nThe entire project followed a similar pattern. An idea, followed by an attempt at implementation, followed by heartache and struggle, most of time follwed by an acceptable and often times satisfying solution.\n\n"
+        },
+        additions: {
+            title: "Things I Would Like to Add",
+            info: "I will hopefully continue to add on to this project including dashboards, calendars, a more robust way of collaborating, and several more ideas.\n\n"
+        },
+        technology: {
+            title: "Technology Used",
+            info: ".NET 6\nC#\nBlazor\nCSS\nSQL"
+        }
     }
 ]
 
