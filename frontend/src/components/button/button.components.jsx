@@ -10,6 +10,7 @@ const layoutEffect = () => {
 
 const Button = ({ url, target, text, ...props }) => {
     return (
+    
         <Link
             to={url}
             target={target}
@@ -17,6 +18,7 @@ const Button = ({ url, target, text, ...props }) => {
             className="btn center background-blue"
             onClick={layoutEffect}
             alt={`${props.children} button`}>{props.children}</Link>
+        
     );
 }
 

@@ -94,7 +94,7 @@ const Projects = [
         id: 3,
         title: 'Tasky',
         subtitle: 'Agile Project Management Software',
-        siteUrl: 'Not Currently Available',
+        siteUrl: '',
         codeUrl: 'https://github.com/marvintaylor-dev/Tasky',
         heroImg: 'LaptopViewTasky.png',
         image1: "TaskyImageGroup1.png",

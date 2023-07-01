@@ -32,7 +32,8 @@ const ProjectHero = ({ data }) => {
                         </SectionInfo>
                     </div>
                     <div className='flex-left gap-5'>
-                        <ButtonExternal url={data.siteUrl} target="_blank" rel="noreferrer">Site</ButtonExternal>
+                        {data.siteUrl == "" ? <button className="btn" disabled>Site</button> : <ButtonExternal url={data.siteUrl} target="_blank" rel="noreferrer">Site</ButtonExternal>}
+                        {/* <ButtonExternal url={data.siteUrl} target="_blank" rel="noreferrer">Site</ButtonExternal> */}
                         <ButtonExternal url={data.codeUrl} target="_blank" rel="noreferrer">Code</ButtonExternal>
                     </div>
                 </div>
